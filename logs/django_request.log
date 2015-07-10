@@ -401,3 +401,115 @@ Traceback (most recent call last):
          ^
 IndentationError: expected an indented block
 2015-07-10 02:09:17,387 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-10 03:16:03,196 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-10 03:19:29,178 [ERROR] django.request: Internal Server Error: /polls/send
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/george/djangoSite/polls/views.py", line 8, in send
+    mylog.lg
+NameError: global name 'mylog' is not defined
+2015-07-10 03:31:44,140 [ERROR] django.request: Internal Server Error: /polls/send
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 151, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view polls.views.send didn't return an HttpResponse object. It returned None instead.
+2015-07-10 03:56:13,016 [WARNING] django.request: Not Found: /testproxy.php
+2015-07-10 05:04:58,056 [WARNING] django.request: Not Found: /CFIDE/administrator/
+2015-07-10 14:58:21,449 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-10 17:41:47,594 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-10 18:04:32,766 [ERROR] django.request: Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/george/djangoSite/djangoSite/urls.py", line 24, in <module>
+    url(r'^polls/', include('polls.urls')),
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/george/djangoSite/polls/urls.py", line 10
+    url(r'(?P<question_id>[0-9]+)/vote/$', views.vote, name='vote')
+      ^
+SyntaxError: invalid syntax
+2015-07-10 18:20:46,264 [WARNING] django.request: Not Found: /poop/polls/3/results/
+2015-07-10 19:14:37,572 [ERROR] django.request: Internal Server Error: /polls/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/george/djangoSite/polls/views.py", line 11, in index
+    return render(request, 'polls/index', context)
+  File "/usr/local/lib/python2.7/dist-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 98, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 46, in get_template
+    raise TemplateDoesNotExist(template_name)
+TemplateDoesNotExist: polls/index
+2015-07-10 19:14:59,924 [ERROR] django.request: Internal Server Error: /polls/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/george/djangoSite/polls/views.py", line 11, in index
+    return render(request, 'polls/index.html', context)
+  File "/usr/local/lib/python2.7/dist-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 98, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 46, in get_template
+    raise TemplateDoesNotExist(template_name)
+TemplateDoesNotExist: polls/index
+2015-07-10 19:15:01,068 [ERROR] django.request: Internal Server Error: /polls/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/george/djangoSite/polls/views.py", line 11, in index
+    return render(request, 'polls/index.html', context)
+  File "/usr/local/lib/python2.7/dist-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 98, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 46, in get_template
+    raise TemplateDoesNotExist(template_name)
+TemplateDoesNotExist: polls/index
+2015-07-10 19:15:03,192 [ERROR] django.request: Internal Server Error: /polls/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/george/djangoSite/polls/views.py", line 11, in index
+    return render(request, 'polls/index.html', context)
+  File "/usr/local/lib/python2.7/dist-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 98, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 46, in get_template
+    raise TemplateDoesNotExist(template_name)
+TemplateDoesNotExist: polls/index
+2015-07-10 19:22:24,050 [WARNING] django.request: Not Found: /polls/5/
+2015-07-10 19:25:09,229 [WARNING] django.request: Not Found: /polls/5/
+2015-07-10 19:25:10,431 [WARNING] django.request: Not Found: /polls/5/
+2015-07-10 19:25:11,309 [WARNING] django.request: Not Found: /polls/5/
+2015-07-10 19:29:11,194 [WARNING] django.request: Not Found: /polls/5/
+2015-07-10 19:37:16,172 [ERROR] django.request: Internal Server Error: /polls/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/george/djangoSite/djangoSite/urls.py", line 24, in <module>
+    url(r'^polls/', include('polls.urls'), namespace='polls'),
+TypeError: url() got an unexpected keyword argument 'namespace'

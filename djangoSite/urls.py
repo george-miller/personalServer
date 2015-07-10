@@ -21,6 +21,6 @@ from django.views.generic import TemplateView
 
 urlpatterns = patterns('',
     (r"^$", TemplateView.as_view(template_name="index.html")),
-	url(r'^polls/', include('polls.urls')),
+	url(r'^polls/', include('polls.urls', namespace="polls")),
     url(r'^admin/', include(admin.site.urls))
 ) + staticfiles_urlpatterns()
