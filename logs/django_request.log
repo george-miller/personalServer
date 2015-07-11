@@ -513,3 +513,17 @@ Traceback (most recent call last):
   File "/home/george/djangoSite/djangoSite/urls.py", line 24, in <module>
     url(r'^polls/', include('polls.urls'), namespace='polls'),
 TypeError: url() got an unexpected keyword argument 'namespace'
+2015-07-11 00:36:21,202 [ERROR] django.request: Internal Server Error: /polls/2/vote/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/george/djangoSite/polls/views.py", line 43, in vote
+    return HttpResponseRedirect(reverse('polls:results', args=(p.id,)))
+NameError: global name 'reverse' is not defined
+2015-07-11 00:37:08,227 [ERROR] django.request: Internal Server Error: /polls/2/vote/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/george/djangoSite/polls/views.py", line 43, in vote
+    # user hits the Back button.
+NameError: global name 'reverse' is not defined
