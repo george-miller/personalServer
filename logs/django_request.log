@@ -527,3 +527,18 @@ Traceback (most recent call last):
   File "/home/george/djangoSite/polls/views.py", line 43, in vote
     # user hits the Back button.
 NameError: global name 'reverse' is not defined
+2015-07-11 01:14:45,649 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-11 02:02:02,025 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-11 06:36:56,906 [WARNING] django.request: Not Found: /etc/lib/pChart2/examples/index.php
+2015-07-11 12:53:31,796 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-11 17:52:23,269 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-11 21:28:24,911 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-11 21:36:39,772 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-11 21:41:53,251 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-11 22:05:19,916 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-11 23:18:27,243 [WARNING] django.request: Not Found: /manager/html
+2015-07-12 01:32:12,392 [WARNING] django.request: Not Found: /etc/lib/pChart2/examples/index.php
+2015-07-12 01:45:00,641 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-12 01:58:47,765 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-12 02:41:20,393 [WARNING] django.request: Not Found: /polls/2/
+2015-07-12 02:46:10,837 [WARNING] django.request: Not Found: /favicon.ico
