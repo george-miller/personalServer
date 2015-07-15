@@ -2,10 +2,19 @@ from django.shortcuts import render, get_object_or_404
 from django.http import HttpResponse, Http404, HttpResponseRedirect
 from django.template import RequestContext, loader
 import logging
-from .models import Question, Choice
+from .models import Question, Choice, ipAlreadyVoted
 from django.views import generic
 from django.core.urlresolvers import reverse
 from django.utils import timezone
+
+logger = logging.getLogger(__name__)
+def get_client_ip(request):
+    x_forwarded_for = request.META.get('HTTP_X_FORWARDED_FOR')
+    if x_forwarded_for:
+        ip = x_forwarded_for.split(',')[0]
+    else:
+        ip = request.META.get('REMOTE_ADDR')
+    return ip
 
 class IndexView(generic.ListView):
     template_name = 'polls/index.html'
@@ -40,10 +49,22 @@ def vote(request, question_id):
             'error_message': "You didn't select a choice.",
         })
     else:
-        selected_choice.votes += 1
-        selected_choice.save()
-        # Always return an HttpResponseRedirect after successfully dealing
-        # with POST data. This prevents data from being posted twice if a
-        # user hits the Back button.
-        return HttpResponseRedirect(reverse('polls:results', args=(p.id,)))
+		logger.error(p.ipalreadyvoted_set.filter(ip=get_client_ip(request)).count())
+		if p.ipalreadyvoted_set.filter(ip=get_client_ip(request)).count() == 0:
+			selected_choice.votes += 1
+			p.ipalreadyvoted_set.add(ipAlreadyVoted(ip=get_client_ip(request)))
+			selected_choice.save()
+			p.save()
+			return HttpResponseRedirect(reverse('polls:results', args=(p.id,)))
+		else:
+			return render(request, 'polls/detail.html', {
+				'question': p,
+				'error_message': "You already voted"})
 
+def newChoice(request, question_id):
+	question = get_object_or_404(Question, pk=question_id)
+	newChoice = Choice()
+	newChoice.choice_text = request.POST['newChoice']
+	question.choice_set.add(newChoice)
+	question.save()
+	return HttpResponseRedirect(reverse('polls:detail', kwargs=({'pk':question.pk})))

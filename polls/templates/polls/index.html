@@ -1,3 +1,11 @@
+{% load staticfiles %}
+
+<link rel='stylesheet' type='text/css' href='{% static "bootstrap/normalize.css" %}'/>
+<link rel='stylesheet' type='text/css' href='{% static "bootstrap/bootstrap.css" %}'/>
+<link rel='stylesheet' type='text/css' href='{% static "polls/style.css" %}'/>
+
+<h1>Millercodes Polls</h1>
+<h6>Pick a question to see votes, and vote yourself</h6>
 {% if latest_question_list %}
 	<ul>
 	{% for question in latest_question_list %}
@@ -8,3 +16,4 @@
 {% else %}
 	<p>No polls are available.</p>
 {% endif %}
+<h6>Or start a new question!</h6>

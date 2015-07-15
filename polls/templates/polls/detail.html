@@ -1,12 +1,39 @@
+{% load staticfiles %}
+{% load get_range %}
+
+<link rel='stylesheet' type='text/css' href='{% static "bootstrap/normalize.css" %}'/>
+<link rel='stylesheet' type='text/css' href='{% static "bootstrap/bootstrap.css" %}'/>
+<link rel='stylesheet' type='text/css' href='{% static "polls/style.css" %}'/>
+
 <h1>{{ question.question_text }}</h1>
 
 {% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
-
 <form action="{% url 'polls:vote' question.id %}" method="post">
 {% csrf_token %}
 {% for choice in question.choice_set.all %}
+<div class='row'>
+<div class='inputContainer'>
     <input type="radio" name="choice" id="choice{{ forloop.counter }}" value="{{ choice.id }}" />
-    <label for="choice{{ forloop.counter }}">{{ choice.choice_text }}</label><br />
+    <label for="choice{{ forloop.counter }}">{{ choice.choice_text }}</label>
+</div>
+<div class="voteMeterParent">
+	{% for i in choice.votes|get_range %}
+	<div class="voteMeter"></div>
+	{% endfor %}	
+</div>
+<div class='numOfVotes'>
+	<span>&nbsp;&nbsp; {{ choice.votes }} votes</span>
+</div>
+</div>
 {% endfor %}
+<br/>
+
 <input type="submit" value="Vote" />
+</form>
+<br/>
+<h4>Add another choice:</h4>
+<form action="{% url 'polls:addChoice' question.id %}" method="post">
+{% csrf_token %}
+<input type='text' name="newChoice" placeholder="New Choice">
+<input type='submit' value="Submit" />
 </form>

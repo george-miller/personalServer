@@ -21,3 +21,9 @@ class Choice (models.Model):
 	def __str__(self):
 		return self.choice_text
 
+class ipAlreadyVoted(models.Model):
+	question = models.ForeignKey(Question)
+	ip = models.CharField(max_length=60)
+	
+	def __str__(self):
+		return self.ip

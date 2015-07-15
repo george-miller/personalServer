@@ -1,0 +1,38 @@
+li a{
+	color: green;
+}
+body{
+	background: #AAF;
+	margin: 0px 40px 0px 40px;
+}
+input{
+	background-color:white;
+	border: 3px solid;
+	float:left;
+}
+label{
+	margin-left:10px;
+	float:left;
+}
+.inputContainer{
+	width:20%;
+	float:left;
+	min-width:120px;
+}
+.voteMeterParent{
+	width:30%;
+	float:left;
+}
+.numOfVotes:after{
+	clear:left;
+}
+span{
+	margin-bottom:4px;
+}
+.voteMeter{
+	margin-left:10px;
+	float:left;
+	position:relative;
+	border: 2px solid;
+	top:8px;
+}

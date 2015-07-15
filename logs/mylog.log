@@ -1,1 +1,85 @@
 2015-07-10 04:43:26,878 [ERROR] polls.views: Oh please god
+2015-07-12 13:54:34,069 [ERROR] polls.views: ['166.137.252.90']
+2015-07-12 13:54:38,118 [ERROR] polls.views: ['166.137.252.90']
+2015-07-12 14:01:09,899 [ERROR] polls.views: ['166.137.252.90']
+2015-07-12 14:01:19,907 [ERROR] polls.views: ['166.137.252.90']
+2015-07-12 14:01:22,915 [ERROR] polls.views: ['166.137.252.90']
+2015-07-12 14:06:47,582 [ERROR] polls.views: ['166.137.252.90']
+2015-07-12 20:05:45,726 [ERROR] polls.views: polls.ipAlreadyVoted.None
+2015-07-12 20:06:30,085 [ERROR] polls.views: []
+2015-07-12 20:07:33,803 [ERROR] polls.views: []
+2015-07-12 20:07:33,806 [ERROR] polls.views: []
+2015-07-12 20:09:54,860 [ERROR] polls.views: 0
+2015-07-12 20:09:54,862 [ERROR] polls.views: []
+2015-07-12 20:10:30,122 [ERROR] polls.views: 0
+2015-07-12 20:10:30,266 [ERROR] polls.views: [<ipAlreadyVoted: 96.246.28.165>]
+2015-07-12 20:10:33,478 [ERROR] polls.views: 1
+2015-07-12 20:10:33,480 [ERROR] polls.views: [<ipAlreadyVoted: 96.246.28.165>]
+2015-07-12 20:10:35,201 [ERROR] polls.views: 1
+2015-07-12 20:10:35,205 [ERROR] polls.views: [<ipAlreadyVoted: 96.246.28.165>]
+2015-07-12 20:10:36,247 [ERROR] polls.views: 1
+2015-07-12 20:10:36,249 [ERROR] polls.views: [<ipAlreadyVoted: 96.246.28.165>]
+2015-07-12 20:10:41,482 [ERROR] polls.views: 0
+2015-07-12 20:10:41,649 [ERROR] polls.views: [<ipAlreadyVoted: 96.246.28.165>]
+2015-07-12 20:10:44,362 [ERROR] polls.views: 1
+2015-07-12 20:10:44,364 [ERROR] polls.views: [<ipAlreadyVoted: 96.246.28.165>]
+2015-07-13 17:22:22,813 [ERROR] polls.views: 0
+2015-07-13 17:22:22,988 [ERROR] polls.views: [<ipAlreadyVoted: 96.246.28.165>, <ipAlreadyVoted: 65.209.72.194>]
+2015-07-13 17:22:25,187 [ERROR] polls.views: 1
+2015-07-13 17:22:25,189 [ERROR] polls.views: [<ipAlreadyVoted: 96.246.28.165>, <ipAlreadyVoted: 65.209.72.194>]
+2015-07-13 17:22:29,207 [ERROR] polls.views: 1
+2015-07-13 17:22:29,209 [ERROR] polls.views: [<ipAlreadyVoted: 96.246.28.165>, <ipAlreadyVoted: 65.209.72.194>]
+2015-07-13 17:22:36,359 [ERROR] polls.views: 0
+2015-07-13 17:22:36,505 [ERROR] polls.views: [<ipAlreadyVoted: 96.246.28.165>, <ipAlreadyVoted: 65.209.72.194>]
+2015-07-13 17:22:40,084 [ERROR] polls.views: 1
+2015-07-13 17:22:40,087 [ERROR] polls.views: [<ipAlreadyVoted: 96.246.28.165>, <ipAlreadyVoted: 65.209.72.194>]
+2015-07-13 20:51:35,113 [ERROR] polls.views: poopie
+2015-07-13 20:52:36,825 [ERROR] polls.views: poopie
+2015-07-13 20:53:46,108 [ERROR] polls.views: poopie
+2015-07-13 20:54:18,384 [ERROR] polls.views: poopie
+2015-07-13 20:56:34,577 [ERROR] polls.views: mabeleve
+2015-07-14 20:58:17,658 [ERROR] polls.views: yumm
+2015-07-14 21:04:49,296 [ERROR] polls.views: yumm
+2015-07-14 21:06:04,231 [ERROR] polls.views: yumm
+2015-07-14 21:21:10,986 [ERROR] polls.views: 0
+2015-07-14 21:21:16,025 [ERROR] polls.views: 1
+2015-07-14 21:21:22,384 [ERROR] polls.views: 1
+2015-07-14 22:19:14,602 [ERROR] polls.views: 1
+2015-07-14 22:19:17,648 [ERROR] polls.views: 1
+2015-07-14 23:06:14,840 [ERROR] polls.views: 1
+2015-07-15 17:52:35,424 [ERROR] polls.views: 1
+2015-07-15 17:54:51,847 [ERROR] polls.views: 1
+2015-07-15 17:56:02,512 [ERROR] polls.views: 1
+2015-07-15 17:57:36,479 [ERROR] polls.views: 1
+2015-07-15 17:58:13,364 [ERROR] polls.views: 1
+2015-07-15 17:58:39,040 [ERROR] polls.views: 1
+2015-07-15 17:58:56,165 [ERROR] polls.views: 1
+2015-07-15 18:00:30,927 [ERROR] polls.views: 1
+2015-07-15 18:06:26,976 [ERROR] polls.views: 1
+2015-07-15 18:06:28,204 [ERROR] polls.views: 1
+2015-07-15 18:06:29,558 [ERROR] polls.views: 1
+2015-07-15 18:08:15,469 [ERROR] polls.views: 1
+2015-07-15 18:08:16,426 [ERROR] polls.views: 1
+2015-07-15 18:09:44,207 [ERROR] polls.views: 1
+2015-07-15 18:09:47,551 [ERROR] polls.views: 1
+2015-07-15 18:10:41,543 [ERROR] polls.views: 1
+2015-07-15 18:10:42,743 [ERROR] polls.views: 1
+2015-07-15 18:11:08,259 [ERROR] polls.views: 1
+2015-07-15 18:20:39,061 [ERROR] polls.views: 1
+2015-07-15 18:38:26,957 [ERROR] polls.views: 1
+2015-07-15 18:38:28,043 [ERROR] polls.views: 1
+2015-07-15 18:38:42,011 [ERROR] polls.views: 1
+2015-07-15 18:38:52,599 [ERROR] polls.views: 1
+2015-07-15 18:38:56,420 [ERROR] polls.views: 1
+2015-07-15 18:38:57,168 [ERROR] polls.views: 1
+2015-07-15 18:39:42,001 [ERROR] polls.views: 1
+2015-07-15 18:39:42,620 [ERROR] polls.views: 1
+2015-07-15 18:46:02,376 [ERROR] polls.views: 1
+2015-07-15 18:46:13,091 [ERROR] polls.views: 1
+2015-07-15 18:46:13,742 [ERROR] polls.views: 1
+2015-07-15 18:46:14,331 [ERROR] polls.views: 1
+2015-07-15 18:47:39,541 [ERROR] polls.views: 1
+2015-07-15 18:48:26,770 [ERROR] polls.views: 1
+2015-07-15 18:48:37,147 [ERROR] polls.views: 1
+2015-07-15 19:42:40,420 [ERROR] polls.views: 1
+2015-07-15 19:51:39,353 [ERROR] polls.views: 0

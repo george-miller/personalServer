@@ -542,3 +542,989 @@ NameError: global name 'reverse' is not defined
 2015-07-12 01:58:47,765 [WARNING] django.request: Not Found: /favicon.ico
 2015-07-12 02:41:20,393 [WARNING] django.request: Not Found: /polls/2/
 2015-07-12 02:46:10,837 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-12 12:57:03,090 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-12 13:08:55,826 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-12 13:29:31,153 [ERROR] django.request: Internal Server Error: /polls/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/george/djangoSite/djangoSite/urls.py", line 24, in <module>
+    url(r'^polls/', include('polls.urls', namespace="polls")),
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/george/djangoSite/polls/urls.py", line 3, in <module>
+    from . import views
+  File "/home/george/djangoSite/polls/views.py", line 52
+    p.ip_already_voted.append(get_client_ip(request)
+    ^
+IndentationError: unexpected indent
+2015-07-12 13:30:14,913 [ERROR] django.request: Internal Server Error: /polls/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/george/djangoSite/djangoSite/urls.py", line 24, in <module>
+    url(r'^polls/', include('polls.urls', namespace="polls")),
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/george/djangoSite/polls/urls.py", line 3, in <module>
+    from . import views
+  File "/home/george/djangoSite/polls/views.py", line 53
+    selected_choice.save()
+                  ^
+SyntaxError: invalid syntax
+2015-07-12 13:34:15,730 [ERROR] django.request: Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/george/djangoSite/djangoSite/urls.py", line 24, in <module>
+    url(r'^polls/', include('polls.urls', namespace="polls")),
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/george/djangoSite/polls/urls.py", line 3, in <module>
+    from . import views
+  File "/home/george/djangoSite/polls/views.py", line 52
+    selected_choice.votes += 1
+                  ^
+IndentationError: expected an indented block
+2015-07-12 13:35:06,922 [ERROR] django.request: Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/george/djangoSite/djangoSite/urls.py", line 24, in <module>
+    url(r'^polls/', include('polls.urls', namespace="polls")),
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/george/djangoSite/polls/urls.py", line 3, in <module>
+    from . import views
+  File "/home/george/djangoSite/polls/views.py", line 52
+    selected_choice.votes += 1
+                             ^
+IndentationError: unindent does not match any outer indentation level
+2015-07-12 13:35:45,189 [ERROR] django.request: Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/george/djangoSite/djangoSite/urls.py", line 24, in <module>
+    url(r'^polls/', include('polls.urls', namespace="polls")),
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/george/djangoSite/polls/urls.py", line 3, in <module>
+    from . import views
+  File "/home/george/djangoSite/polls/views.py", line 52
+    selected_choice.votes += 1
+                  ^
+IndentationError: expected an indented block
+2015-07-12 13:37:07,633 [ERROR] django.request: Internal Server Error: /polls/2/vote/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/george/djangoSite/polls/views.py", line 51, in vote
+    if not(p.ip_already_voted.contains(get_clinet_ip(request))):
+AttributeError: 'list' object has no attribute 'contains'
+2015-07-12 13:40:14,252 [ERROR] django.request: Internal Server Error: /polls/2/results/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/george/djangoSite/djangoSite/urls.py", line 24, in <module>
+    url(r'^polls/', include('polls.urls', namespace="polls")),
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/george/djangoSite/polls/urls.py", line 3, in <module>
+    from . import views
+  File "/home/george/djangoSite/polls/views.py", line 58
+    return HttpResponseRedirect(reverse('polls:results', args=(p.id,)))
+                                                                      ^
+IndentationError: unindent does not match any outer indentation level
+2015-07-12 13:46:21,905 [ERROR] django.request: Internal Server Error: /polls/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/george/djangoSite/djangoSite/urls.py", line 24, in <module>
+    url(r'^polls/', include('polls.urls', namespace="polls")),
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/george/djangoSite/polls/urls.py", line 3, in <module>
+    from . import views
+  File "/home/george/djangoSite/polls/views.py", line 55
+    p.save()
+    ^
+IndentationError: unexpected indent
+2015-07-12 13:53:54,800 [ERROR] django.request: Internal Server Error: /polls/2/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/george/djangoSite/djangoSite/urls.py", line 24, in <module>
+    url(r'^polls/', include('polls.urls', namespace="polls")),
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/george/djangoSite/polls/urls.py", line 3, in <module>
+    from . import views
+  File "/home/george/djangoSite/polls/views.py", line 57
+    logger.error(p.ip_already_voted)
+    ^
+IndentationError: unexpected indent
+2015-07-12 14:04:48,285 [ERROR] django.request: Internal Server Error: /polls
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/middleware/common.py", line 74, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 647, in is_valid_path
+    resolve(path, urlconf)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 522, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/george/djangoSite/djangoSite/urls.py", line 24, in <module>
+    url(r'^polls/', include('polls.urls', namespace="polls")),
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/george/djangoSite/polls/urls.py", line 3, in <module>
+    from . import views
+  File "/home/george/djangoSite/polls/views.py", line 59
+    else:
+        ^
+IndentationError: unindent does not match any outer indentation level
+2015-07-12 16:24:59,674 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-12 19:41:19,036 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-12 19:51:20,131 [ERROR] django.request: Internal Server Error: /polls/2/vote/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/george/djangoSite/polls/views.py", line 52, in vote
+    if not(get_client_ip(request) in p.ip_already_voted):
+AttributeError: 'Question' object has no attribute 'ip_already_voted'
+2015-07-12 20:03:21,457 [ERROR] django.request: Internal Server Error: /polls/2/vote/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/george/djangoSite/polls/views.py", line 52, in vote
+    if p.ipAlreadyVoted_set.filter(ip=get_client_ip(request)) == []:
+AttributeError: 'Question' object has no attribute 'ipAlreadyVoted_set'
+2015-07-12 20:09:11,663 [ERROR] django.request: Internal Server Error: /polls/2/vote/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/george/djangoSite/polls/views.py", line 52, in vote
+    logger.error(p.ipalreadyvoted_set.filter(ip=get_client_ip(request)).length())
+AttributeError: 'QuerySet' object has no attribute 'length'
+2015-07-13 00:43:43,061 [WARNING] django.request: Not Found: /cgi-bin/mft/wireless_mft
+2015-07-13 00:43:55,109 [WARNING] django.request: Not Found: /maker/snwrite.cgi
+2015-07-13 00:44:06,613 [WARNING] django.request: Not Found: /cgi_test.cgi
+2015-07-13 04:36:55,326 [WARNING] django.request: Not Found: /testproxy.php
+2015-07-13 07:33:40,296 [WARNING] django.request: Not Found: /Ringing.at.your.dorbell!
+2015-07-13 07:33:42,376 [WARNING] django.request: Not Found: /Diagnostics.asp
+2015-07-13 12:51:32,058 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-13 17:22:17,298 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-13 17:45:14,602 [ERROR] django.request: Internal Server Error: /polls/1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 164, in get_response
+    response = response.render()
+  File "/usr/local/lib/python2.7/dist-packages/django/template/response.py", line 158, in render
+    self.content = self.rendered_content
+  File "/usr/local/lib/python2.7/dist-packages/django/template/response.py", line 135, in rendered_content
+    content = template.render(context, self._request)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/backends/django.py", line 74, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 209, in render
+    return self._render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 79, in render_node
+    return node.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/defaulttags.py", line 507, in render
+    six.reraise(*exc_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/defaulttags.py", line 493, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 579, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 496, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'addChoice' with arguments '(1L,)' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2015-07-13 17:46:09,975 [ERROR] django.request: Internal Server Error: /polls/1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 164, in get_response
+    response = response.render()
+  File "/usr/local/lib/python2.7/dist-packages/django/template/response.py", line 158, in render
+    self.content = self.rendered_content
+  File "/usr/local/lib/python2.7/dist-packages/django/template/response.py", line 135, in rendered_content
+    content = template.render(context, self._request)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/backends/django.py", line 74, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 209, in render
+    return self._render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 79, in render_node
+    return node.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/defaulttags.py", line 507, in render
+    six.reraise(*exc_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/defaulttags.py", line 493, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 579, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 496, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'addChoice' with arguments '(1L,)' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2015-07-13 17:46:11,002 [ERROR] django.request: Internal Server Error: /polls/1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 164, in get_response
+    response = response.render()
+  File "/usr/local/lib/python2.7/dist-packages/django/template/response.py", line 158, in render
+    self.content = self.rendered_content
+  File "/usr/local/lib/python2.7/dist-packages/django/template/response.py", line 135, in rendered_content
+    content = template.render(context, self._request)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/backends/django.py", line 74, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 209, in render
+    return self._render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 79, in render_node
+    return node.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/defaulttags.py", line 507, in render
+    six.reraise(*exc_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/defaulttags.py", line 493, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 579, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 496, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'addChoice' with arguments '(1L,)' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2015-07-13 17:46:56,582 [ERROR] django.request: Internal Server Error: /polls/2/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 164, in get_response
+    response = response.render()
+  File "/usr/local/lib/python2.7/dist-packages/django/template/response.py", line 158, in render
+    self.content = self.rendered_content
+  File "/usr/local/lib/python2.7/dist-packages/django/template/response.py", line 135, in rendered_content
+    content = template.render(context, self._request)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/backends/django.py", line 74, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 209, in render
+    return self._render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 79, in render_node
+    return node.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/defaulttags.py", line 507, in render
+    six.reraise(*exc_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/defaulttags.py", line 493, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 579, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 496, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'addChoice' with arguments '(2L,)' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2015-07-13 17:49:49,623 [ERROR] django.request: Internal Server Error: /polls/2/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 164, in get_response
+    response = response.render()
+  File "/usr/local/lib/python2.7/dist-packages/django/template/response.py", line 158, in render
+    self.content = self.rendered_content
+  File "/usr/local/lib/python2.7/dist-packages/django/template/response.py", line 135, in rendered_content
+    content = template.render(context, self._request)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/backends/django.py", line 74, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 209, in render
+    return self._render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 79, in render_node
+    return node.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/defaulttags.py", line 507, in render
+    six.reraise(*exc_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/defaulttags.py", line 493, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 579, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 496, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'addChoice' with arguments '(2L,)' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2015-07-13 17:49:50,827 [ERROR] django.request: Internal Server Error: /polls/2/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 164, in get_response
+    response = response.render()
+  File "/usr/local/lib/python2.7/dist-packages/django/template/response.py", line 158, in render
+    self.content = self.rendered_content
+  File "/usr/local/lib/python2.7/dist-packages/django/template/response.py", line 135, in rendered_content
+    content = template.render(context, self._request)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/backends/django.py", line 74, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 209, in render
+    return self._render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 79, in render_node
+    return node.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/defaulttags.py", line 507, in render
+    six.reraise(*exc_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/defaulttags.py", line 493, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 579, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 496, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'addChoice' with arguments '(2L,)' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2015-07-13 17:50:02,047 [ERROR] django.request: Internal Server Error: /polls/2/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 164, in get_response
+    response = response.render()
+  File "/usr/local/lib/python2.7/dist-packages/django/template/response.py", line 158, in render
+    self.content = self.rendered_content
+  File "/usr/local/lib/python2.7/dist-packages/django/template/response.py", line 135, in rendered_content
+    content = template.render(context, self._request)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/backends/django.py", line 74, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 209, in render
+    return self._render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 79, in render_node
+    return node.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/defaulttags.py", line 507, in render
+    six.reraise(*exc_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/defaulttags.py", line 493, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 579, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 496, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'addChoice' with arguments '(2L,)' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2015-07-13 17:52:54,539 [ERROR] django.request: Internal Server Error: /polls/2/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 164, in get_response
+    response = response.render()
+  File "/usr/local/lib/python2.7/dist-packages/django/template/response.py", line 158, in render
+    self.content = self.rendered_content
+  File "/usr/local/lib/python2.7/dist-packages/django/template/response.py", line 135, in rendered_content
+    content = template.render(context, self._request)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/backends/django.py", line 74, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 209, in render
+    return self._render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 79, in render_node
+    return node.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/defaulttags.py", line 507, in render
+    six.reraise(*exc_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/defaulttags.py", line 493, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 579, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 496, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'addChoice' with arguments '(2L,)' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2015-07-13 20:48:16,362 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-13 20:48:26,100 [ERROR] django.request: Internal Server Error: /polls/2/addChoice/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/george/djangoSite/polls/views.py", line 66, in newChoice
+    logger.error(request.POST['newChoice'])
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/datastructures.py", line 322, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'newChoice'"
+2015-07-13 20:50:41,519 [ERROR] django.request: Internal Server Error: /polls/2/addChoice/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/george/djangoSite/polls/views.py", line 66, in newChoice
+    logger.error(request.POST['newChoice'])
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/datastructures.py", line 322, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'newChoice'"
+2015-07-13 20:50:47,170 [WARNING] django.request: Forbidden (CSRF token missing or incorrect.): /polls/2/addChoice/
+2015-07-13 20:51:35,114 [ERROR] django.request: Internal Server Error: /polls/2/addChoice/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 151, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view polls.views.newChoice didn't return an HttpResponse object. It returned None instead.
+2015-07-13 20:52:36,827 [ERROR] django.request: Internal Server Error: /polls/2/addChoice/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/george/djangoSite/polls/views.py", line 67, in newChoice
+    return HttpResponse(reverse('polls:details'))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 579, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 496, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'details' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2015-07-13 20:53:46,109 [ERROR] django.request: Internal Server Error: /polls/2/addChoice/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/george/djangoSite/polls/views.py", line 67, in newChoice
+    return HttpResponse(reverse('polls:details', args=(question.id)))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 579, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+TypeError: _reverse_with_prefix() argument after * must be a sequence, not long
+2015-07-13 20:54:18,385 [ERROR] django.request: Internal Server Error: /polls/2/addChoice/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/george/djangoSite/polls/views.py", line 67, in newChoice
+    return HttpResponse(reverse('polls:details', args=(question.id,)))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 579, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 496, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'details' with arguments '(2L,)' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2015-07-13 20:56:34,578 [ERROR] django.request: Internal Server Error: /polls/2/addChoice/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/george/djangoSite/polls/views.py", line 67, in newChoice
+    return HttpResponseRedirect(reverse('polls:details', args=(question.id,)))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 579, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 496, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'details' with arguments '(2L,)' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2015-07-14 04:49:19,684 [WARNING] django.request: Not Found: /Ringing.at.your.dorbell!
+2015-07-14 04:49:22,734 [WARNING] django.request: Not Found: /Diagnostics.asp
+2015-07-14 05:26:42,237 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-14 11:48:52,009 [WARNING] django.request: Not Found: /Ringing.at.your.dorbell!
+2015-07-14 11:48:59,620 [WARNING] django.request: Not Found: /Diagnostics.asp
+2015-07-14 14:04:11,566 [WARNING] django.request: Not Found: /testproxy.php
+2015-07-14 18:14:40,058 [WARNING] django.request: Not Found: /etc/lib/pChart2/examples/index.php
+2015-07-14 20:20:03,000 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-14 20:57:41,876 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-14 20:58:17,658 [ERROR] django.request: Internal Server Error: /polls/2/addChoice/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/george/djangoSite/polls/views.py", line 67, in newChoice
+    return HttpResponseRedirect(reverse('polls:details', args=(question.id,)))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 579, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 496, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'details' with arguments '(2L,)' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2015-07-14 21:03:13,290 [WARNING] django.request: Not Found: /fhiuewhkjdsn
+2015-07-14 21:03:13,320 [WARNING] django.request: Not Found: /fhiuewhkjdsn
+2015-07-14 21:04:49,298 [ERROR] django.request: Internal Server Error: /polls/2/addChoice/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/george/djangoSite/polls/views.py", line 67, in newChoice
+    return HttpResponseRedirect(reverse('polls:details', kwargs=({'pk':question.pk})))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 579, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 496, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'details' with arguments '()' and keyword arguments '{'pk': 2L}' not found. 0 pattern(s) tried: []
+2015-07-14 21:08:39,645 [ERROR] django.request: Internal Server Error: /polls/2/addChoice/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/george/djangoSite/polls/views.py", line 66, in newChoice
+    question.choice_set.add(Choice(request.POST['newChoice']))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/related.py", line 744, in add
+    obj.save()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 710, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 738, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 803, in _save_table
+    forced_update)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 833, in _do_update
+    filtered = base_qs.filter(pk=pk_val)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 679, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 697, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1304, in add_q
+    clause, require_inner = self._add_q(where_part, self.used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1332, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1203, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1096, in build_lookup
+    return final_lookup(lhs, rhs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/lookups.py", line 96, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/lookups.py", line 134, in get_prep_lookup
+    return self.lhs.output_field.get_prep_lookup(self.lookup_name, self.rhs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 727, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 985, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'Money'
+2015-07-14 21:25:40,816 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-14 21:58:38,047 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-14 23:21:55,483 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-14 23:34:08,040 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-15 00:10:44,248 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-15 12:59:14,054 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-15 12:59:14,091 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-15 15:06:07,783 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-15 17:51:05,913 [WARNING] django.request: Not Found: /static/bootstrap/normalize.css
+2015-07-15 17:51:05,923 [WARNING] django.request: Not Found: /static/bootstrap/bootstrap.css
+2015-07-15 17:51:08,735 [WARNING] django.request: Not Found: /static/bootstrap/normalize.css
+2015-07-15 17:51:08,735 [WARNING] django.request: Not Found: /static/bootstrap/bootstrap.css
+2015-07-15 17:52:35,568 [WARNING] django.request: Not Found: /static/bootstrap/normalize.css
+2015-07-15 17:52:35,580 [WARNING] django.request: Not Found: /static/bootstrap/bootstrap.css
+2015-07-15 17:54:09,561 [WARNING] django.request: Not Found: /static/bootstrap/bootstrap.css
+2015-07-15 17:54:09,561 [WARNING] django.request: Not Found: /static/bootstrap/normalize.css
+2015-07-15 17:54:51,999 [WARNING] django.request: Not Found: /static/bootstrap/normalize.css
+2015-07-15 17:54:52,029 [WARNING] django.request: Not Found: /static/bootstrap/bootstrap.css
+2015-07-15 17:56:02,674 [WARNING] django.request: Not Found: /static/bootstrap/normalize.css
+2015-07-15 17:56:02,690 [WARNING] django.request: Not Found: /static/bootstrap/bootstrap.css
+2015-07-15 17:57:36,630 [WARNING] django.request: Not Found: /static/bootstrap/normalize.css
+2015-07-15 17:57:36,645 [WARNING] django.request: Not Found: /static/bootstrap/bootstrap.css
+2015-07-15 17:58:13,511 [WARNING] django.request: Not Found: /static/bootstrap/normalize.css
+2015-07-15 17:58:13,523 [WARNING] django.request: Not Found: /static/bootstrap/bootstrap.css
+2015-07-15 17:58:39,187 [WARNING] django.request: Not Found: /static/bootstrap/normalize.css
+2015-07-15 17:58:39,198 [WARNING] django.request: Not Found: /static/bootstrap/bootstrap.css
+2015-07-15 17:58:56,305 [WARNING] django.request: Not Found: /static/bootstrap/normalize.css
+2015-07-15 17:58:56,319 [WARNING] django.request: Not Found: /static/bootstrap/bootstrap.css
+2015-07-15 18:00:31,087 [WARNING] django.request: Not Found: /static/bootstrap/normalize.css
+2015-07-15 18:00:31,098 [WARNING] django.request: Not Found: /static/bootstrap/bootstrap.css
+2015-07-15 18:06:27,135 [WARNING] django.request: Not Found: /static/bootstrap/normalize.css
+2015-07-15 18:06:27,153 [WARNING] django.request: Not Found: /static/bootstrap/bootstrap.css
+2015-07-15 18:06:28,411 [WARNING] django.request: Not Found: /static/bootstrap/normalize.css
+2015-07-15 18:06:28,419 [WARNING] django.request: Not Found: /static/bootstrap/bootstrap.css
+2015-07-15 18:06:29,746 [WARNING] django.request: Not Found: /static/bootstrap/normalize.css
+2015-07-15 18:06:29,757 [WARNING] django.request: Not Found: /static/bootstrap/bootstrap.css
+2015-07-15 18:08:15,635 [WARNING] django.request: Not Found: /static/bootstrap/normalize.css
+2015-07-15 18:08:15,653 [WARNING] django.request: Not Found: /static/bootstrap/bootstrap.css
+2015-07-15 18:08:16,615 [WARNING] django.request: Not Found: /static/bootstrap/normalize.css
+2015-07-15 18:08:16,623 [WARNING] django.request: Not Found: /static/bootstrap/bootstrap.css
+2015-07-15 18:09:44,365 [ERROR] django.request: Internal Server Error: /static/bootstrap/normalize.css
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/views.py", line 34, in serve
+    absolute_path = finders.find(normalized_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/finders.py", line 249, in find
+    for finder in get_finders():
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/finders.py", line 264, in get_finders
+    yield get_finder(finder_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/lru_cache.py", line 101, in wrapper
+    result = user_function(*args, **kwds)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/finders.py", line 277, in get_finder
+    return Finder()
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/finders.py", line 66, in __init__
+    "The STATICFILES_DIRS setting should "
+ImproperlyConfigured: The STATICFILES_DIRS setting should not contain the STATIC_ROOT setting
+2015-07-15 18:09:44,387 [ERROR] django.request: Internal Server Error: /static/bootstrap/bootstrap.css
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/views.py", line 34, in serve
+    absolute_path = finders.find(normalized_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/finders.py", line 249, in find
+    for finder in get_finders():
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/finders.py", line 264, in get_finders
+    yield get_finder(finder_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/lru_cache.py", line 101, in wrapper
+    result = user_function(*args, **kwds)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/finders.py", line 277, in get_finder
+    return Finder()
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/finders.py", line 66, in __init__
+    "The STATICFILES_DIRS setting should "
+ImproperlyConfigured: The STATICFILES_DIRS setting should not contain the STATIC_ROOT setting
+2015-07-15 18:09:44,414 [ERROR] django.request: Internal Server Error: /static/polls/style.css
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/views.py", line 34, in serve
+    absolute_path = finders.find(normalized_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/finders.py", line 249, in find
+    for finder in get_finders():
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/finders.py", line 264, in get_finders
+    yield get_finder(finder_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/lru_cache.py", line 101, in wrapper
+    result = user_function(*args, **kwds)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/finders.py", line 277, in get_finder
+    return Finder()
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/finders.py", line 66, in __init__
+    "The STATICFILES_DIRS setting should "
+ImproperlyConfigured: The STATICFILES_DIRS setting should not contain the STATIC_ROOT setting
+2015-07-15 18:09:47,694 [ERROR] django.request: Internal Server Error: /static/bootstrap/normalize.css
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/views.py", line 34, in serve
+    absolute_path = finders.find(normalized_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/finders.py", line 249, in find
+    for finder in get_finders():
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/finders.py", line 264, in get_finders
+    yield get_finder(finder_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/lru_cache.py", line 101, in wrapper
+    result = user_function(*args, **kwds)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/finders.py", line 277, in get_finder
+    return Finder()
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/finders.py", line 66, in __init__
+    "The STATICFILES_DIRS setting should "
+ImproperlyConfigured: The STATICFILES_DIRS setting should not contain the STATIC_ROOT setting
+2015-07-15 18:09:47,711 [ERROR] django.request: Internal Server Error: /static/bootstrap/bootstrap.css
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/views.py", line 34, in serve
+    absolute_path = finders.find(normalized_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/finders.py", line 249, in find
+    for finder in get_finders():
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/finders.py", line 264, in get_finders
+    yield get_finder(finder_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/lru_cache.py", line 101, in wrapper
+    result = user_function(*args, **kwds)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/finders.py", line 277, in get_finder
+    return Finder()
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/finders.py", line 66, in __init__
+    "The STATICFILES_DIRS setting should "
+ImproperlyConfigured: The STATICFILES_DIRS setting should not contain the STATIC_ROOT setting
+2015-07-15 18:09:47,728 [ERROR] django.request: Internal Server Error: /static/polls/style.css
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/views.py", line 34, in serve
+    absolute_path = finders.find(normalized_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/finders.py", line 249, in find
+    for finder in get_finders():
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/finders.py", line 264, in get_finders
+    yield get_finder(finder_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/lru_cache.py", line 101, in wrapper
+    result = user_function(*args, **kwds)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/finders.py", line 277, in get_finder
+    return Finder()
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/finders.py", line 66, in __init__
+    "The STATICFILES_DIRS setting should "
+ImproperlyConfigured: The STATICFILES_DIRS setting should not contain the STATIC_ROOT setting
+2015-07-15 18:10:41,704 [ERROR] django.request: Internal Server Error: /static/bootstrap/normalize.css
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/views.py", line 34, in serve
+    absolute_path = finders.find(normalized_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/finders.py", line 249, in find
+    for finder in get_finders():
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/finders.py", line 264, in get_finders
+    yield get_finder(finder_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/lru_cache.py", line 101, in wrapper
+    result = user_function(*args, **kwds)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/finders.py", line 277, in get_finder
+    return Finder()
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/finders.py", line 66, in __init__
+    "The STATICFILES_DIRS setting should "
+ImproperlyConfigured: The STATICFILES_DIRS setting should not contain the STATIC_ROOT setting
+2015-07-15 18:10:41,724 [ERROR] django.request: Internal Server Error: /static/bootstrap/bootstrap.css
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/views.py", line 34, in serve
+    absolute_path = finders.find(normalized_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/finders.py", line 249, in find
+    for finder in get_finders():
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/finders.py", line 264, in get_finders
+    yield get_finder(finder_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/lru_cache.py", line 101, in wrapper
+    result = user_function(*args, **kwds)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/finders.py", line 277, in get_finder
+    return Finder()
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/finders.py", line 66, in __init__
+    "The STATICFILES_DIRS setting should "
+ImproperlyConfigured: The STATICFILES_DIRS setting should not contain the STATIC_ROOT setting
+2015-07-15 18:10:41,732 [ERROR] django.request: Internal Server Error: /static/polls/style.css
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/views.py", line 34, in serve
+    absolute_path = finders.find(normalized_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/finders.py", line 249, in find
+    for finder in get_finders():
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/finders.py", line 264, in get_finders
+    yield get_finder(finder_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/lru_cache.py", line 101, in wrapper
+    result = user_function(*args, **kwds)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/finders.py", line 277, in get_finder
+    return Finder()
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/finders.py", line 66, in __init__
+    "The STATICFILES_DIRS setting should "
+ImproperlyConfigured: The STATICFILES_DIRS setting should not contain the STATIC_ROOT setting
+2015-07-15 18:10:42,940 [ERROR] django.request: Internal Server Error: /static/bootstrap/normalize.css
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/views.py", line 34, in serve
+    absolute_path = finders.find(normalized_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/finders.py", line 249, in find
+    for finder in get_finders():
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/finders.py", line 264, in get_finders
+    yield get_finder(finder_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/lru_cache.py", line 101, in wrapper
+    result = user_function(*args, **kwds)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/finders.py", line 277, in get_finder
+    return Finder()
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/finders.py", line 66, in __init__
+    "The STATICFILES_DIRS setting should "
+ImproperlyConfigured: The STATICFILES_DIRS setting should not contain the STATIC_ROOT setting
+2015-07-15 18:10:42,965 [ERROR] django.request: Internal Server Error: /static/bootstrap/bootstrap.css
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/views.py", line 34, in serve
+    absolute_path = finders.find(normalized_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/finders.py", line 249, in find
+    for finder in get_finders():
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/finders.py", line 264, in get_finders
+    yield get_finder(finder_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/lru_cache.py", line 101, in wrapper
+    result = user_function(*args, **kwds)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/finders.py", line 277, in get_finder
+    return Finder()
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/finders.py", line 66, in __init__
+    "The STATICFILES_DIRS setting should "
+ImproperlyConfigured: The STATICFILES_DIRS setting should not contain the STATIC_ROOT setting
+2015-07-15 18:10:42,966 [ERROR] django.request: Internal Server Error: /static/polls/style.css
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/views.py", line 34, in serve
+    absolute_path = finders.find(normalized_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/finders.py", line 249, in find
+    for finder in get_finders():
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/finders.py", line 264, in get_finders
+    yield get_finder(finder_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/lru_cache.py", line 101, in wrapper
+    result = user_function(*args, **kwds)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/finders.py", line 277, in get_finder
+    return Finder()
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/finders.py", line 66, in __init__
+    "The STATICFILES_DIRS setting should "
+ImproperlyConfigured: The STATICFILES_DIRS setting should not contain the STATIC_ROOT setting
+2015-07-15 18:11:08,409 [WARNING] django.request: Not Found: /static/bootstrap/normalize.css
+2015-07-15 18:11:08,424 [WARNING] django.request: Not Found: /static/bootstrap/bootstrap.css
+2015-07-15 18:20:39,214 [WARNING] django.request: Not Found: /static/bootstrap/normalize.css
+2015-07-15 18:20:39,232 [WARNING] django.request: Not Found: /static/bootstrap/bootstrap.css
+2015-07-15 18:38:27,143 [WARNING] django.request: Not Found: /static/bootstrap/normalize.css
+2015-07-15 18:38:27,161 [WARNING] django.request: Not Found: /static/bootstrap/bootstrap.css
+2015-07-15 18:38:28,239 [WARNING] django.request: Not Found: /static/bootstrap/bootstrap.css
+2015-07-15 18:38:28,240 [WARNING] django.request: Not Found: /static/bootstrap/normalize.css
+2015-07-15 18:38:42,366 [WARNING] django.request: Not Found: /static/bootstrap/bootstrap.css.map
+2015-07-15 18:38:52,899 [WARNING] django.request: Not Found: /static/bootstrap/bootstrap.css.map
+2015-07-15 18:38:56,679 [WARNING] django.request: Not Found: /static/bootstrap/bootstrap.css.map
+2015-07-15 18:38:57,446 [WARNING] django.request: Not Found: /static/bootstrap/bootstrap.css.map
+2015-07-15 18:39:42,252 [WARNING] django.request: Not Found: /static/bootstrap/bootstrap.css.map
+2015-07-15 18:39:42,959 [WARNING] django.request: Not Found: /static/bootstrap/bootstrap.css.map
+2015-07-15 19:15:44,638 [ERROR] django.request: Internal Server Error: /polls/2/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 164, in get_response
+    response = response.render()
+  File "/usr/local/lib/python2.7/dist-packages/django/template/response.py", line 158, in render
+    self.content = self.rendered_content
+  File "/usr/local/lib/python2.7/dist-packages/django/template/response.py", line 133, in rendered_content
+    template = self._resolve_template(self.template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/response.py", line 88, in _resolve_template
+    new_template = self.resolve_template(template)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/response.py", line 78, in resolve_template
+    return loader.select_template(template, using=self.using)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 64, in select_template
+    return engine.get_template(template_name, dirs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/backends/django.py", line 30, in get_template
+    return Template(self.engine.get_template(template_name, dirs))
+  File "/usr/local/lib/python2.7/dist-packages/django/template/engine.py", line 167, in get_template
+    template, origin = self.find_template(template_name, dirs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/engine.py", line 141, in find_template
+    source, display_name = loader(name, dirs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loaders/base.py", line 13, in __call__
+    return self.load_template(template_name, template_dirs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loaders/base.py", line 23, in load_template
+    template = Template(source, origin, template_name, self.engine)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 190, in __init__
+    self.nodelist = engine.compile_string(template_string, origin)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/engine.py", line 261, in compile_string
+    return parser.parse()
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 341, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/defaulttags.py", line 872, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 341, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/defaulttags.py", line 871, in do_for
+    sequence = parser.compile_filter(bits[in_index + 1])
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 423, in compile_filter
+    return FilterExpression(token, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 633, in __init__
+    filter_func = parser.find_filter(filter_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 429, in find_filter
+    raise TemplateSyntaxError("Invalid filter: '%s'" % filter_name)
+TemplateSyntaxError: Invalid filter: 'get_range'
+2015-07-15 19:17:15,355 [ERROR] django.request: Internal Server Error: /polls/2/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 164, in get_response
+    response = response.render()
+  File "/usr/local/lib/python2.7/dist-packages/django/template/response.py", line 158, in render
+    self.content = self.rendered_content
+  File "/usr/local/lib/python2.7/dist-packages/django/template/response.py", line 133, in rendered_content
+    template = self._resolve_template(self.template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/response.py", line 88, in _resolve_template
+    new_template = self.resolve_template(template)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/response.py", line 78, in resolve_template
+    return loader.select_template(template, using=self.using)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 64, in select_template
+    return engine.get_template(template_name, dirs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/backends/django.py", line 30, in get_template
+    return Template(self.engine.get_template(template_name, dirs))
+  File "/usr/local/lib/python2.7/dist-packages/django/template/engine.py", line 167, in get_template
+    template, origin = self.find_template(template_name, dirs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/engine.py", line 141, in find_template
+    source, display_name = loader(name, dirs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loaders/base.py", line 13, in __call__
+    return self.load_template(template_name, template_dirs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loaders/base.py", line 23, in load_template
+    template = Template(source, origin, template_name, self.engine)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 190, in __init__
+    self.nodelist = engine.compile_string(template_string, origin)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/engine.py", line 261, in compile_string
+    return parser.parse()
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 341, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/defaulttags.py", line 872, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 339, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 394, in invalid_block_tag
+    (command, get_text_list(["'%s'" % p for p in parse_until])))
+TemplateSyntaxError: Invalid block tag: 'num_range', expected 'empty' or 'endfor'
+2015-07-15 19:22:21,653 [ERROR] django.request: Internal Server Error: /polls/2/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 164, in get_response
+    response = response.render()
+  File "/usr/local/lib/python2.7/dist-packages/django/template/response.py", line 158, in render
+    self.content = self.rendered_content
+  File "/usr/local/lib/python2.7/dist-packages/django/template/response.py", line 133, in rendered_content
+    template = self._resolve_template(self.template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/response.py", line 88, in _resolve_template
+    new_template = self.resolve_template(template)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/response.py", line 78, in resolve_template
+    return loader.select_template(template, using=self.using)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 64, in select_template
+    return engine.get_template(template_name, dirs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/backends/django.py", line 30, in get_template
+    return Template(self.engine.get_template(template_name, dirs))
+  File "/usr/local/lib/python2.7/dist-packages/django/template/engine.py", line 167, in get_template
+    template, origin = self.find_template(template_name, dirs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/engine.py", line 141, in find_template
+    source, display_name = loader(name, dirs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loaders/base.py", line 13, in __call__
+    return self.load_template(template_name, template_dirs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loaders/base.py", line 23, in load_template
+    template = Template(source, origin, template_name, self.engine)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 190, in __init__
+    self.nodelist = engine.compile_string(template_string, origin)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/engine.py", line 261, in compile_string
+    return parser.parse()
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 341, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/defaulttags.py", line 1163, in load
+    (taglib, e))
+TemplateSyntaxError: 'get_range' is not a valid tag library: Template library get_range not found, tried django.templatetags.get_range,django.contrib.admin.templatetags.get_range,django.contrib.staticfiles.templatetags.get_range

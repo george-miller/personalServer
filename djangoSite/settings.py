@@ -69,8 +69,9 @@ TEMPLATES = [
     },
 ]
 
-STATIC_ROOT= "/home/george/djangoSite/static"
-
+STATICFILES_DIRS = (
+	os.path.join(BASE_DIR, 'static/'),
+)
 WSGI_APPLICATION = 'djangoSite.wsgi.application'
 
 
