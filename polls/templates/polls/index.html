@@ -17,3 +17,12 @@
 	<p>No polls are available.</p>
 {% endif %}
 <h6>Or start a new question!</h6>
+
+<form action='{% url 'polls:addQuestion' %}' method='post'>
+{% csrf_token %}
+<input type='text' name='newQuestion' placeholder='New Question' />
+<input type='submit' value='Submit' />
+</form>
+<br/>
+<hr/>
+<a href="/../">Go back to the homepage</a>

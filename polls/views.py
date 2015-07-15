@@ -33,9 +33,6 @@ class DetailView(generic.DetailView):
     def get_queryset(self):
 		return Question.objects.filter(pub_date__lte=timezone.now())
 
-class ResultsView(generic.DetailView):
-    model = Question
-    template_name = 'polls/results.html'
 
 
 def vote(request, question_id):
@@ -55,16 +52,23 @@ def vote(request, question_id):
 			p.ipalreadyvoted_set.add(ipAlreadyVoted(ip=get_client_ip(request)))
 			selected_choice.save()
 			p.save()
-			return HttpResponseRedirect(reverse('polls:results', args=(p.id,)))
+			return HttpResponseRedirect(reverse('polls:detail', args=(p.id,)))
 		else:
 			return render(request, 'polls/detail.html', {
 				'question': p,
 				'error_message': "You already voted"})
 
-def newChoice(request, question_id):
+def addChoice(request, question_id):
 	question = get_object_or_404(Question, pk=question_id)
 	newChoice = Choice()
 	newChoice.choice_text = request.POST['newChoice']
 	question.choice_set.add(newChoice)
 	question.save()
 	return HttpResponseRedirect(reverse('polls:detail', kwargs=({'pk':question.pk})))
+
+
+def addQuestion(request):
+	newQuestion = Question(question_text=request.POST['newQuestion'], pub_date=timezone.now())
+	newQuestion.question_text = request.POST['newQuestion']
+	newQuestion.save()
+	return HttpResponseRedirect(reverse('polls:index'))

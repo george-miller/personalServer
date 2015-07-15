@@ -22,7 +22,7 @@
 	{% endfor %}	
 </div>
 <div class='numOfVotes'>
-	<span>&nbsp;&nbsp; {{ choice.votes }} votes</span>
+	<span> {{ choice.votes }} votes</span>
 </div>
 </div>
 {% endfor %}
@@ -37,3 +37,6 @@
 <input type='text' name="newChoice" placeholder="New Choice">
 <input type='submit' value="Submit" />
 </form>
+<br/>
+<hr/>
+<a href='{% url 'polls:index' %}'>Back to Question Select</a>
