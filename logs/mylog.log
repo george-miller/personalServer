@@ -95,3 +95,202 @@
 2015-07-15 21:59:23,029 [ERROR] polls.views: 0
 2015-07-15 22:01:03,798 [ERROR] polls.views: 1
 2015-07-15 22:09:04,089 [ERROR] polls.views: 1
+2015-07-16 14:28:28,732 [ERROR] polls.views: 0
+2015-07-16 14:28:31,484 [ERROR] polls.views: 1
+2015-07-16 14:29:09,195 [ERROR] polls.views: 0
+2015-07-16 14:38:33,894 [ERROR] polls.views: 1
+2015-07-22 23:02:14,784 [ERROR] polls.views: 1
+2015-07-22 23:03:10,903 [ERROR] polls.views: 1
+2015-07-22 23:05:38,649 [ERROR] polls.views: 1
+2015-07-22 23:09:17,049 [ERROR] polls.views: What makes the world go around?
+2015-07-22 23:09:17,053 [ERROR] polls.views: People
+2015-07-22 23:10:42,058 [ERROR] polls.views: What makes the world go around?
+2015-07-22 23:10:42,061 [ERROR] polls.views: Consiousness
+2015-07-22 23:14:45,085 [ERROR] polls.views: What makes the world go around?
+2015-07-22 23:14:45,088 [ERROR] polls.views: Money
+2015-07-23 01:19:50,403 [ERROR] polls.views: Why did David take my mousepad?
+2015-07-23 01:19:50,406 [ERROR] polls.views: He's a bitch
+2015-07-23 01:23:37,707 [ERROR] polls.views: Will this button work?
+2015-07-23 01:23:37,710 [ERROR] polls.views: No
+2015-07-23 01:44:12,504 [ERROR] polls.views: What makes the world go around?
+2015-07-23 01:44:12,507 [ERROR] polls.views: Poop
+2015-07-23 01:44:34,763 [ERROR] polls.views: What makes the world go around?
+2015-07-23 01:44:34,766 [ERROR] polls.views: Consiousness
+2015-07-23 01:46:12,203 [ERROR] polls.views: What makes the world go around?
+2015-07-23 01:46:12,206 [ERROR] polls.views: Poop
+2015-07-23 01:46:28,321 [ERROR] polls.views: What makes the world go around?
+2015-07-23 01:46:28,324 [ERROR] polls.views: Trade
+2015-07-23 01:46:30,791 [ERROR] polls.views: What makes the world go around?
+2015-07-23 01:46:30,794 [ERROR] polls.views: Trade
+2015-07-23 01:46:36,049 [ERROR] polls.views: What makes the world go around?
+2015-07-23 01:46:36,051 [ERROR] polls.views: Trade
+2015-07-23 01:46:56,911 [ERROR] polls.views: What makes the world go around?
+2015-07-23 01:46:56,914 [ERROR] polls.views: Money
+2015-07-23 01:47:28,880 [ERROR] polls.views: What makes the world go around?
+2015-07-23 01:47:28,883 [ERROR] polls.views: Money
+2015-07-23 01:48:31,967 [ERROR] polls.views: What makes the world go around?
+2015-07-23 01:48:31,970 [ERROR] polls.views: Poop
+2015-07-23 01:56:13,350 [ERROR] polls.views: What makes the world go around?
+2015-07-23 01:56:59,941 [ERROR] polls.views: What makes the world go around?
+2015-07-23 01:57:29,208 [ERROR] polls.views: What makes the world go around?
+2015-07-23 01:58:32,357 [ERROR] polls.views: What makes the world go around?
+2015-07-23 01:58:42,137 [ERROR] polls.views: What makes the world go around?
+2015-07-23 02:01:47,715 [ERROR] polls.views: What makes the world go around?
+2015-07-23 02:02:22,283 [ERROR] polls.views: What makes the world go around?
+2015-07-23 02:06:17,118 [ERROR] polls.views: What makes the world go around?
+2015-07-23 02:06:17,122 [ERROR] polls.views: People
+2015-07-23 02:09:54,934 [ERROR] polls.views: What makes the world go around?
+2015-07-23 02:09:54,938 [ERROR] polls.views: Consiousness
+2015-07-23 02:12:08,892 [ERROR] polls.views: What makes the world go around?
+2015-07-23 02:12:08,895 [ERROR] polls.views: Money
+2015-07-23 02:12:49,021 [ERROR] polls.views: What makes the world go around?
+2015-07-23 02:12:49,024 [ERROR] polls.views: Poop
+2015-07-23 02:13:12,669 [ERROR] polls.views: What makes the world go around?
+2015-07-23 02:13:12,670 [ERROR] polls.views: Poop
+2015-07-23 02:13:18,809 [ERROR] polls.views: What makes the world go around?
+2015-07-23 02:13:18,811 [ERROR] polls.views: Money
+2015-07-23 02:13:37,300 [ERROR] polls.views: What makes the world go around?
+2015-07-23 02:13:37,303 [ERROR] polls.views: Trade
+2015-07-23 02:15:03,397 [ERROR] polls.views: What makes the world go around?
+2015-07-23 02:15:03,398 [ERROR] polls.views: Money
+2015-07-23 02:17:59,835 [ERROR] polls.views: What makes the world go around?
+2015-07-23 02:17:59,838 [ERROR] polls.views: Poop
+2015-07-23 02:18:05,265 [ERROR] polls.views: What makes the world go around?
+2015-07-23 02:18:05,268 [ERROR] polls.views: Death
+2015-07-23 02:18:09,435 [ERROR] polls.views: What makes the world go around?
+2015-07-23 02:18:09,438 [ERROR] polls.views: Death
+2015-07-23 02:19:53,103 [ERROR] polls.views: What makes the world go around?
+2015-07-23 02:19:53,106 [ERROR] polls.views: Poop
+2015-07-23 02:24:01,728 [ERROR] polls.views: What makes the world go around?
+2015-07-23 02:24:01,731 [ERROR] polls.views: Poop
+2015-07-23 02:24:06,368 [ERROR] polls.views: What makes the world go around?
+2015-07-23 02:24:06,371 [ERROR] polls.views: Trade
+2015-07-23 02:25:15,875 [ERROR] polls.views: What makes the world go around?
+2015-07-23 02:25:15,877 [ERROR] polls.views: Trade
+2015-07-23 02:25:37,136 [ERROR] polls.views: What makes the world go around?
+2015-07-23 02:25:37,140 [ERROR] polls.views: Consiousness
+2015-07-23 02:25:40,266 [ERROR] polls.views: What makes the world go around?
+2015-07-23 02:25:40,270 [ERROR] polls.views: Consiousness
+2015-07-23 02:27:09,087 [ERROR] polls.views: What makes the world go around?
+2015-07-23 02:27:09,088 [ERROR] polls.views: What makes the world go around?
+2015-07-23 02:27:09,948 [ERROR] polls.views: What makes the world go around?
+2015-07-23 02:27:09,951 [ERROR] polls.views: What makes the world go around?
+2015-07-23 02:27:12,387 [ERROR] polls.views: What makes the world go around?
+2015-07-23 02:27:12,388 [ERROR] polls.views: What makes the world go around?
+2015-07-23 02:27:12,392 [ERROR] polls.views: Money
+2015-07-23 02:27:12,397 [ERROR] polls.views: Money
+2015-07-23 02:27:23,704 [ERROR] polls.views: Who has the best butt??
+2015-07-23 02:27:23,708 [ERROR] polls.views: David
+2015-07-23 02:27:50,924 [ERROR] polls.views: Why did David take my mousepad?
+2015-07-23 02:27:50,927 [ERROR] polls.views: He's a bitch
+2015-07-23 02:27:58,734 [ERROR] polls.views: What makes the world go around?
+2015-07-23 02:27:58,737 [ERROR] polls.views: Money
+2015-07-23 02:28:06,664 [ERROR] polls.views: What makes the world go around?
+2015-07-23 02:28:06,667 [ERROR] polls.views: Money
+2015-07-23 02:28:13,843 [ERROR] polls.views: Will this button work?
+2015-07-23 02:28:13,847 [ERROR] polls.views: No
+2015-07-23 02:28:21,383 [ERROR] polls.views: What makes the world go around?
+2015-07-23 02:28:21,387 [ERROR] polls.views: Consiousness
+2015-07-23 02:28:25,483 [ERROR] polls.views: Who has the best butt??
+2015-07-23 02:28:25,486 [ERROR] polls.views: David
+2015-07-23 02:28:30,723 [ERROR] polls.views: What makes the world go around?
+2015-07-23 02:28:30,727 [ERROR] polls.views: Poop
+2015-07-23 02:28:34,521 [ERROR] polls.views: Why did David take my mousepad?
+2015-07-23 02:28:34,523 [ERROR] polls.views: He's a bitch
+2015-07-23 02:28:38,313 [ERROR] polls.views: Will this button work?
+2015-07-23 02:28:38,315 [ERROR] polls.views: No
+2015-07-23 19:04:15,179 [ERROR] polls.views: What makes the world go around?
+2015-07-23 19:04:15,182 [ERROR] polls.views: Consiousness
+2015-07-23 19:04:17,744 [ERROR] polls.views: What makes the world go around?
+2015-07-23 19:04:17,747 [ERROR] polls.views: Poop
+2015-07-23 19:04:20,920 [ERROR] polls.views: What makes the world go around?
+2015-07-23 19:04:20,923 [ERROR] polls.views: What makes the world go around?
+2015-07-23 19:04:25,711 [ERROR] polls.views: What makes the world go around?
+2015-07-23 19:04:25,714 [ERROR] polls.views: Poop
+2015-07-23 19:04:29,595 [ERROR] polls.views: What makes the world go around?
+2015-07-23 19:04:29,598 [ERROR] polls.views: Money
+2015-07-23 19:04:33,219 [ERROR] polls.views: What makes the world go around?
+2015-07-23 19:04:33,223 [ERROR] polls.views: What makes the world go around?
+2015-07-23 19:04:33,224 [ERROR] polls.views: Poop
+2015-07-23 19:04:33,227 [ERROR] polls.views: Poop
+2015-07-23 19:06:46,702 [ERROR] polls.views: What makes the world go around?
+2015-07-23 19:06:46,705 [ERROR] polls.views: Money
+2015-07-23 19:06:49,727 [ERROR] polls.views: What makes the world go around?
+2015-07-23 19:06:49,730 [ERROR] polls.views: Poop
+2015-07-23 19:07:17,531 [ERROR] polls.views: What makes the world go around?
+2015-07-23 19:07:17,535 [ERROR] polls.views: Poop
+2015-07-23 19:07:20,560 [ERROR] polls.views: What makes the world go around?
+2015-07-23 19:07:20,563 [ERROR] polls.views: Money
+2015-07-23 19:07:23,430 [ERROR] polls.views: What makes the world go around?
+2015-07-23 19:07:23,431 [ERROR] polls.views: What makes the world go around?
+2015-07-23 19:07:23,435 [ERROR] polls.views: Consiousness
+2015-07-23 19:07:23,436 [ERROR] polls.views: Consiousness
+2015-07-23 19:08:37,075 [ERROR] polls.views: What makes the world go around?
+2015-07-23 19:08:37,077 [ERROR] polls.views: Poop
+2015-07-23 19:08:37,494 [ERROR] polls.views: What makes the world go around?
+2015-07-23 19:08:37,497 [ERROR] polls.views: Poop
+2015-07-23 19:08:38,229 [ERROR] polls.views: What makes the world go around?
+2015-07-23 19:08:38,232 [ERROR] polls.views: Poop
+2015-07-23 19:08:38,721 [ERROR] polls.views: What makes the world go around?
+2015-07-23 19:08:38,723 [ERROR] polls.views: Poop
+2015-07-23 19:08:41,004 [ERROR] polls.views: What makes the world go around?
+2015-07-23 19:08:41,007 [ERROR] polls.views: Consiousness
+2015-07-23 19:08:44,302 [ERROR] polls.views: What makes the world go around?
+2015-07-23 19:08:44,305 [ERROR] polls.views: People
+2015-07-23 19:08:49,362 [ERROR] polls.views: What makes the world go around?
+2015-07-23 19:08:49,365 [ERROR] polls.views: Poop
+2015-07-23 19:08:54,758 [ERROR] polls.views: Will this button work?
+2015-07-23 19:08:54,760 [ERROR] polls.views: No
+2015-07-23 19:10:31,606 [ERROR] polls.views: What makes the world go around?
+2015-07-23 19:10:31,610 [ERROR] polls.views: Money
+2015-07-23 19:10:32,699 [ERROR] polls.views: What makes the world go around?
+2015-07-23 19:10:32,702 [ERROR] polls.views: Money
+2015-07-23 19:12:09,153 [ERROR] polls.views: What makes the world go around?
+2015-07-23 19:12:09,156 [ERROR] polls.views: Poop
+2015-07-23 19:12:13,007 [ERROR] polls.views: What makes the world go around?
+2015-07-23 19:12:13,011 [ERROR] polls.views: Money
+2015-07-23 19:13:27,671 [ERROR] polls.views: What makes the world go around?
+2015-07-23 19:13:27,674 [ERROR] polls.views: Money
+2015-07-23 19:15:21,722 [ERROR] polls.views: What makes the world go around?
+2015-07-23 19:15:21,724 [ERROR] polls.views: Money
+2015-07-23 19:15:24,353 [ERROR] polls.views: What makes the world go around?
+2015-07-23 19:15:24,357 [ERROR] polls.views: Consiousness
+2015-07-23 19:15:27,257 [ERROR] polls.views: What makes the world go around?
+2015-07-23 19:15:28,614 [ERROR] polls.views: What makes the world go around?
+2015-07-23 19:15:29,277 [ERROR] polls.views: What makes the world go around?
+2015-07-23 19:15:29,679 [ERROR] polls.views: What makes the world go around?
+2015-07-23 19:15:30,050 [ERROR] polls.views: What makes the world go around?
+2015-07-23 19:17:52,089 [ERROR] polls.views: What makes the world go around?
+2015-07-23 19:17:52,092 [ERROR] polls.views: Consiousness
+2015-07-23 22:35:48,016 [ERROR] polls.views: What makes the world go around?
+2015-07-23 22:35:48,020 [ERROR] polls.views: Trade
+2015-07-23 22:35:52,347 [ERROR] polls.views: What makes the world go around?
+2015-07-23 22:35:52,351 [ERROR] polls.views: Poop
+2015-07-23 22:36:29,675 [ERROR] polls.views: What makes the world go around?
+2015-07-23 22:36:29,679 [ERROR] polls.views: Death
+2015-07-23 22:42:19,999 [ERROR] polls.views: What makes the world go around?
+2015-07-23 22:42:20,002 [ERROR] polls.views: Poop
+2015-07-23 22:44:04,427 [ERROR] polls.views: What makes the world go around?
+2015-07-23 22:44:04,430 [ERROR] polls.views: Death
+2015-07-23 22:45:18,155 [ERROR] polls.views: What makes the world go around?
+2015-07-23 22:45:18,159 [ERROR] polls.views: Money
+2015-07-23 22:45:26,225 [ERROR] polls.views: What makes the world go around?
+2015-07-23 22:45:26,229 [ERROR] polls.views: Poop
+2015-07-23 22:46:03,055 [ERROR] polls.views: What makes the world go around?
+2015-07-23 22:46:03,058 [ERROR] polls.views: Money
+2015-07-23 23:14:25,613 [ERROR] polls.views: What makes the world go around?
+2015-07-23 23:14:25,616 [ERROR] polls.views: Poop
+2015-07-23 23:15:06,042 [ERROR] polls.views: What makes the world go around?
+2015-07-23 23:15:06,045 [ERROR] polls.views: Trade
+2015-07-23 23:16:25,090 [ERROR] polls.views: What makes the world go around?
+2015-07-23 23:16:25,094 [ERROR] polls.views: Money
+2015-07-24 01:28:26,551 [ERROR] polls.views: Will this button work?
+2015-07-24 01:28:26,554 [ERROR] polls.views: Yes
+2015-07-24 01:30:03,609 [ERROR] polls.views: Will this button work?
+2015-07-24 01:30:03,612 [ERROR] polls.views: Only if it was built by a millercodes dev
+2015-07-24 01:36:06,901 [ERROR] polls.views: Will this button work?
+2015-07-24 01:36:06,903 [ERROR] polls.views: I don't know, try!
+2015-07-24 01:36:13,862 [ERROR] polls.views: Why did David take my mousepad?
+2015-07-24 01:36:13,865 [ERROR] polls.views: He's a bitch
+2015-07-24 01:36:46,831 [ERROR] polls.views: This actually works?
+2015-07-24 01:36:46,834 [ERROR] polls.views: I guess so

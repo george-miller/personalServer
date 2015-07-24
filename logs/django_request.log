@@ -1777,3 +1777,926 @@ MultiValueDictKeyError: "'newQuestion'"
 2015-07-15 22:06:00,470 [WARNING] django.request: Not Found: /favicon.ico
 2015-07-15 22:06:00,493 [WARNING] django.request: Not Found: /favicon.ico
 2015-07-15 22:06:00,510 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-16 09:45:51,452 [WARNING] django.request: Not Found: /cgi-bin/rtpd.cgi
+2015-07-16 11:13:09,316 [WARNING] django.request: Not Found: /testproxy.php
+2015-07-16 14:13:00,141 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-16 15:46:50,236 [WARNING] django.request: Not Found: /muieblackcat
+2015-07-16 15:46:50,601 [WARNING] django.request: Not Found: /phpMyAdmin/scripts/setup.php
+2015-07-16 15:46:50,964 [WARNING] django.request: Not Found: /phpmyadmin/scripts/setup.php
+2015-07-16 15:46:51,361 [WARNING] django.request: Not Found: /pma/scripts/setup.php
+2015-07-16 15:46:51,736 [WARNING] django.request: Not Found: /myadmin/scripts/setup.php
+2015-07-16 15:46:52,109 [WARNING] django.request: Not Found: /MyAdmin/scripts/setup.php
+2015-07-16 15:46:52,497 [WARNING] django.request: Not Found: /mysqladmin/scripts/setup.php
+2015-07-16 15:46:52,874 [WARNING] django.request: Not Found: /mysql/scripts/setup.php
+2015-07-16 18:50:29,538 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-16 21:51:00,791 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-16 21:51:00,944 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-16 21:51:01,493 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-16 23:14:09,250 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-17 01:53:40,461 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-17 02:36:41,355 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-17 03:02:57,712 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-17 05:05:13,820 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-17 06:33:49,220 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-17 07:46:53,957 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-17 09:59:22,512 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-17 10:00:36,479 [WARNING] django.request: Not Found: /Ringing.at.your.dorbell!
+2015-07-17 10:00:38,393 [WARNING] django.request: Not Found: /Diagnostics.asp
+2015-07-17 10:24:31,844 [WARNING] django.request: Not Found: /rom-0
+2015-07-17 11:58:00,666 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-17 12:50:44,390 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-17 14:01:51,771 [WARNING] django.request: Not Found: /rom-0
+2015-07-17 14:41:37,157 [WARNING] django.request: Not Found: /rom-0
+2015-07-17 14:41:42,269 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-17 18:14:13,382 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-17 18:47:33,833 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-17 19:58:00,432 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-17 20:37:34,659 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-17 22:23:22,722 [WARNING] django.request: Not Found: /testproxy.php
+2015-07-18 00:28:59,047 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-18 01:44:46,226 [WARNING] django.request: Not Found: /Ringing.at.your.dorbell!
+2015-07-18 01:44:48,072 [WARNING] django.request: Not Found: /Diagnostics.asp
+2015-07-18 08:20:32,579 [WARNING] django.request: Not Found: /muieblackcat
+2015-07-18 08:20:32,767 [WARNING] django.request: Not Found: /phpMyAdmin/scripts/setup.php
+2015-07-18 08:20:32,958 [WARNING] django.request: Not Found: /phpmyadmin/scripts/setup.php
+2015-07-18 08:20:33,147 [WARNING] django.request: Not Found: /myadmin/scripts/setup.php
+2015-07-18 09:21:00,883 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-18 09:56:28,555 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-18 12:19:39,530 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-18 13:41:06,535 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-18 14:42:45,078 [WARNING] django.request: Not Found: /muieblackcat
+2015-07-18 14:42:45,443 [WARNING] django.request: Not Found: /phpMyAdmin/scripts/setup.php
+2015-07-18 14:42:45,843 [WARNING] django.request: Not Found: /phpmyadmin/scripts/setup.php
+2015-07-18 14:42:46,226 [WARNING] django.request: Not Found: /pma/scripts/setup.php
+2015-07-18 14:42:46,603 [WARNING] django.request: Not Found: /myadmin/scripts/setup.php
+2015-07-18 14:42:46,978 [WARNING] django.request: Not Found: /MyAdmin/scripts/setup.php
+2015-07-18 14:42:47,379 [WARNING] django.request: Not Found: /mysqladmin/scripts/setup.php
+2015-07-18 14:42:47,779 [WARNING] django.request: Not Found: /mysql/scripts/setup.php
+2015-07-18 15:08:16,528 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-18 16:34:36,879 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-18 16:52:15,214 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-18 18:25:14,216 [WARNING] django.request: Not Found: /testproxy.php
+2015-07-18 18:25:34,092 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-18 19:05:17,462 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-18 21:11:36,794 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-18 23:27:37,941 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-19 00:32:48,177 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-19 01:59:20,253 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-19 03:47:30,602 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-19 04:10:25,528 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-19 06:36:19,682 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-19 07:07:26,963 [WARNING] django.request: Not Found: /check_user.cgi
+2015-07-19 09:05:20,857 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-19 09:35:00,059 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-19 12:46:39,455 [WARNING] django.request: Not Found: /testproxy.php
+2015-07-19 16:59:03,010 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-19 23:03:13,045 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-19 23:08:07,082 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-19 23:59:28,374 [ERROR] django.request: Internal Server Error: /polls/addQuestion/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/george/djangoSite/polls/views.py", line 72, in addQuestion
+    return render_to_response('polls/index.html', {'questionError': 'New questions must not be empty'}, RequestContext(request))
+NameError: global name 'render_to_response' is not defined
+2015-07-20 00:00:05,454 [ERROR] django.request: Internal Server Error: /polls/addQuestion/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/george/djangoSite/polls/views.py", line 72, in addQuestion
+    return render_to_response('polls/index.html', {'questionError': 'New questions must not be empty'}, RequestContext(request))
+NameError: global name 'render_to_response' is not defined
+2015-07-20 00:00:46,043 [ERROR] django.request: Internal Server Error: /polls/addQuestion/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/george/djangoSite/polls/views.py", line 72, in addQuestion
+    return render_to_response('polls/index.html', {'questionError': 'New questions must not be empty'}, RequestContext(request))
+NameError: global name 'render_to_response' is not defined
+2015-07-20 00:04:44,138 [ERROR] django.request: Internal Server Error: /polls/addQuestion/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/george/djangoSite/polls/views.py", line 72, in addQuestion
+    return HttpResponseRedirect(reverse('polls:index', kwargs=({'questionError':'A quetion cannot be empty'})))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 579, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 496, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'index' with arguments '()' and keyword arguments '{'questionError': 'A quetion cannot be empty'}' not found. 1 pattern(s) tried: [u'polls/$']
+2015-07-20 00:06:08,367 [ERROR] django.request: Internal Server Error: /polls/addQuestion/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/george/djangoSite/polls/views.py", line 72, in addQuestion
+    return HttpResponseRedirect(reverse('polls:index'))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 579, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 496, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'index' with arguments '()' and keyword arguments '{'questionError': 'A quetion cannot be empty'}' not found. 1 pattern(s) tried: [u'polls/$']
+2015-07-20 01:59:20,232 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-20 04:47:21,957 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-20 06:33:40,123 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-20 07:17:44,496 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-20 07:35:24,474 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-20 09:49:12,732 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-20 09:56:22,108 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-20 11:07:42,430 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-20 12:05:14,403 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-20 12:08:50,070 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-20 12:14:33,963 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-20 12:30:25,593 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-20 12:30:58,657 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-20 12:32:06,825 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-20 12:57:31,633 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-20 13:02:53,149 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-20 13:29:29,492 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-20 13:35:43,102 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-20 14:32:45,415 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-20 14:39:18,371 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-20 15:05:30,116 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-20 15:21:28,322 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-20 16:00:14,975 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-20 16:34:58,712 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-20 16:35:53,695 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-20 16:37:04,718 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-20 18:53:05,680 [ERROR] django.request: Internal Server Error: /polls/addQuestion/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/george/djangoSite/polls/views.py", line 72, in addQuestion
+    return HttpResponseRedirect(views.IndexView.as_view({'questionError': 'The question cannot be an empty string'}))
+NameError: global name 'views' is not defined
+2015-07-20 18:53:36,941 [ERROR] django.request: Internal Server Error: /polls/addQuestion/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/george/djangoSite/polls/views.py", line 72, in addQuestion
+    return HttpResponseRedirect(IndexView.as_view({'questionError': 'The question cannot be an empty string'}))
+NameError: global name 'views' is not defined
+2015-07-20 18:53:50,096 [ERROR] django.request: Internal Server Error: /polls/addQuestion/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/george/djangoSite/polls/views.py", line 72, in addQuestion
+    return HttpResponseRedirect(IndexView.as_view({'questionError': 'The question cannot be an empty string'}))
+TypeError: as_view() takes exactly 1 argument (2 given)
+2015-07-20 18:57:15,859 [ERROR] django.request: Internal Server Error: /polls/addQuestion/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/george/djangoSite/polls/views.py", line 72, in addQuestion
+    return HttpResponseRedirect(IndexView.as_view(context={'questionError': 'The question cannot be an empty string'}))
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/base.py", line 62, in as_view
+    "attributes of the class." % (cls.__name__, key))
+TypeError: IndexView() received an invalid keyword 'context'. as_view only accepts arguments that are already attributes of the class.
+2015-07-20 19:05:03,690 [ERROR] django.request: Internal Server Error: /polls/addQuestion/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/george/djangoSite/polls/views.py", line 72, in addQuestion
+    return HttpResponseRedirect(IndexView.as_view(context_object={'questionError': 'The question cannot be an empty string'}))
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/base.py", line 62, in as_view
+    "attributes of the class." % (cls.__name__, key))
+TypeError: IndexView() received an invalid keyword 'context_object'. as_view only accepts arguments that are already attributes of the class.
+2015-07-20 19:07:43,399 [ERROR] django.request: Internal Server Error: /polls/addQuestion/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/george/djangoSite/polls/views.py", line 72, in addQuestion
+    return HttpResponseRedirect(IndexView.as_view(object_list={'questionError': 'The question cannot be an empty string'}))
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/base.py", line 62, in as_view
+    "attributes of the class." % (cls.__name__, key))
+TypeError: IndexView() received an invalid keyword 'object_list'. as_view only accepts arguments that are already attributes of the class.
+2015-07-20 19:18:05,404 [ERROR] django.request: Internal Server Error: /polls/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/list.py", line 159, in get
+    self.object_list = self.get_queryset()
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/list.py", line 44, in get_queryset
+    'cls': self.__class__.__name__
+ImproperlyConfigured: IndexView is missing a QuerySet. Define IndexView.model, IndexView.queryset, or override IndexView.get_queryset().
+2015-07-20 19:19:06,223 [ERROR] django.request: Internal Server Error: /polls/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/george/djangoSite/djangoSite/urls.py", line 24, in <module>
+    url(r'^polls/', include('polls.urls', namespace="polls")),
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/george/djangoSite/polls/urls.py", line 3, in <module>
+    from . import views
+  File "/home/george/djangoSite/polls/views.py", line 13
+    k   if x_forwarded_for:
+                          ^
+SyntaxError: invalid syntax
+2015-07-20 19:19:43,936 [ERROR] django.request: Internal Server Error: /polls/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/george/djangoSite/djangoSite/urls.py", line 24, in <module>
+    url(r'^polls/', include('polls.urls', namespace="polls")),
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/george/djangoSite/polls/urls.py", line 3, in <module>
+    from . import views
+  File "/home/george/djangoSite/polls/views.py", line 13
+    k   if x_forwarded_for:
+                          ^
+SyntaxError: invalid syntax
+2015-07-20 19:20:20,850 [ERROR] django.request: Internal Server Error: /polls/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/george/djangoSite/djangoSite/urls.py", line 24, in <module>
+    url(r'^polls/', include('polls.urls', namespace="polls")),
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/george/djangoSite/polls/urls.py", line 3, in <module>
+    from . import views
+  File "/home/george/djangoSite/polls/views.py", line 13
+    if x_forwarded_for:
+    ^
+IndentationError: unexpected indent
+2015-07-20 19:20:46,889 [ERROR] django.request: Internal Server Error: /polls/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/george/djangoSite/djangoSite/urls.py", line 24, in <module>
+    url(r'^polls/', include('polls.urls', namespace="polls")),
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/george/djangoSite/polls/urls.py", line 3, in <module>
+    from . import views
+  File "/home/george/djangoSite/polls/views.py", line 23
+    def get_queryset():
+    ^
+IndentationError: unexpected indent
+2015-07-20 19:21:24,812 [ERROR] django.request: Internal Server Error: /polls/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/list.py", line 159, in get
+    self.object_list = self.get_queryset()
+TypeError: get_queryset() takes no arguments (1 given)
+2015-07-20 19:22:21,412 [ERROR] django.request: Internal Server Error: /polls/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/list.py", line 159, in get
+    self.object_list = self.get_queryset()
+  File "/home/george/djangoSite/polls/views.py", line 24, in get_queryset
+    return Questions.objects.all()
+NameError: global name 'Questions' is not defined
+2015-07-20 19:22:42,375 [ERROR] django.request: Internal Server Error: /polls/addQuestion/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/george/djangoSite/polls/views.py", line 70, in addQuestion
+    return HttpResponseRedirect(IndexView.as_view(object_list={'questionError': 'The question cannot be an empty string'}))
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/base.py", line 62, in as_view
+    "attributes of the class." % (cls.__name__, key))
+TypeError: IndexView() received an invalid keyword 'object_list'. as_view only accepts arguments that are already attributes of the class.
+2015-07-20 19:24:21,231 [WARNING] django.request: Not Found: /polls/addQuestion/<function IndexView at 0x7ff74710b848>
+2015-07-20 19:25:37,904 [ERROR] django.request: Internal Server Error: /polls/addQuestion/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/george/djangoSite/polls/views.py", line 71, in addQuestion
+    return HttpResponseRedirect(IndexView.as_view(questionError={'questionError': 'The question cannot be an empty string'}))
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/base.py", line 62, in as_view
+    "attributes of the class." % (cls.__name__, key))
+TypeError: IndexView() received an invalid keyword 'questionError'. as_view only accepts arguments that are already attributes of the class.
+2015-07-20 19:26:34,042 [ERROR] django.request: Internal Server Error: /polls/addQuestion/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/george/djangoSite/polls/views.py", line 71, in addQuestion
+    return HttpResponseRedirect(IndexView.as_view(object_list.add({'questionError': 'The question cannot be an empty string'})))
+NameError: global name 'object_list' is not defined
+2015-07-20 19:27:25,576 [ERROR] django.request: Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/george/djangoSite/djangoSite/urls.py", line 24, in <module>
+    url(r'^polls/', include('polls.urls', namespace="polls")),
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/george/djangoSite/polls/urls.py", line 3, in <module>
+    from . import views
+  File "/home/george/djangoSite/polls/views.py", line 71
+    return HttpResponseRedirect(IndexView.as_view()))
+                                                    ^
+SyntaxError: invalid syntax
+2015-07-20 19:28:12,888 [WARNING] django.request: Not Found: /polls/addQuestion/<function IndexView at 0x7fde9a07d488>
+2015-07-20 20:09:12,839 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-20 20:15:42,103 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-20 20:43:30,378 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-20 20:45:05,338 [ERROR] django.request: Internal Server Error: /polls/addQuestion/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/george/djangoSite/polls/views.py", line 71, in addQuestion
+    return render(request, IndexView.as_view(), {'questionError': 'A question cannot be an empty string'})
+  File "/usr/local/lib/python2.7/dist-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 98, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 46, in get_template
+    raise TemplateDoesNotExist(template_name)
+TemplateDoesNotExist: <function IndexView at 0x7f7325cb2ed8>
+2015-07-20 20:46:47,984 [ERROR] django.request: Internal Server Error: /polls/addQuestion/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/george/djangoSite/polls/views.py", line 71, in addQuestion
+    return render(request, IndexView.as_view(), {'latest_question_list': IndexView.get_queryset(), 'questionError': 'A question cannot be an empty string'})
+TypeError: unbound method get_queryset() must be called with IndexView instance as first argument (got nothing instead)
+2015-07-20 20:47:39,648 [WARNING] django.request: Not Found: /main/rss/hotnews/hotnews.rss
+2015-07-20 20:47:39,835 [WARNING] django.request: Not Found: /main/javascript/jquery.latest.min.js
+2015-07-20 20:47:43,553 [ERROR] django.request: Internal Server Error: /polls/addQuestion/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/george/djangoSite/polls/views.py", line 71, in addQuestion
+    return render(request, IndexView.as_view(),
+TypeError: unbound method get_queryset() must be called with IndexView instance as first argument (got nothing instead)
+2015-07-20 20:47:53,776 [ERROR] django.request: Internal Server Error: /polls/addQuestion/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/george/djangoSite/polls/views.py", line 73, in addQuestion
+    'questionError': 'A question cannot be an empty string'})
+  File "/usr/local/lib/python2.7/dist-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 98, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 46, in get_template
+    raise TemplateDoesNotExist(template_name)
+TemplateDoesNotExist: <function IndexView at 0x7f741344b8c0>
+2015-07-20 21:19:49,913 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-20 23:09:16,125 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-20 23:25:21,746 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-20 23:25:21,785 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-21 00:58:49,259 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-21 01:23:21,977 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-21 01:30:05,031 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-21 01:50:38,806 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-21 01:56:51,513 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-21 03:59:19,587 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-21 06:01:57,072 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-21 07:58:24,684 [WARNING] django.request: Not Found: /testproxy.php
+2015-07-21 12:12:49,684 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-21 16:39:07,113 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-21 20:39:11,634 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-21 23:49:45,774 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-22 07:24:28,223 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-22 07:54:49,421 [WARNING] django.request: Not Found: /phpMyAdmin/scripts/setup.php
+2015-07-22 17:44:30,912 [WARNING] django.request: Not Found: /robots.txt
+2015-07-22 17:44:31,095 [WARNING] django.request: Not Found: /sitemap.xml
+2015-07-22 19:15:45,830 [WARNING] django.request: Not Found: /testproxy.php
+2015-07-22 22:53:35,375 [ERROR] django.request: Internal Server Error: /polls/8/vote
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/middleware/common.py", line 84, in process_request
+    "settings.") % (new_url[0], new_url[1]))
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to gmmotto.ddns.net/polls/8/vote/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2015-07-22 22:54:47,464 [WARNING] django.request: Forbidden (CSRF token missing or incorrect.): /polls/2/vote/
+2015-07-22 22:58:05,961 [ERROR] django.request: Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/george/djangoSite/djangoSite/urls.py", line 24, in <module>
+    url(r'^polls/', include('polls.urls', namespace="polls")),
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/george/djangoSite/polls/urls.py", line 3, in <module>
+    from . import views
+  File "/home/george/djangoSite/polls/views.py", line 25, in <module>
+    @csrf_exempt
+NameError: name 'csrf_exempt' is not defined
+2015-07-22 23:08:39,087 [ERROR] django.request: Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/george/djangoSite/djangoSite/urls.py", line 24, in <module>
+    url(r'^polls/', include('polls.urls', namespace="polls")),
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/george/djangoSite/polls/urls.py", line 3, in <module>
+    from . import views
+  File "/home/george/djangoSite/polls/views.py", line 30
+    logger.error(p);
+    ^
+IndentationError: unexpected indent
+2015-07-22 23:10:08,526 [WARNING] django.request: Not Found: /admn
+2015-07-23 01:03:15,107 [WARNING] django.request: Forbidden (CSRF token missing or incorrect.): /polls/8/vote/
+2015-07-23 01:04:00,406 [WARNING] django.request: Forbidden (CSRF token missing or incorrect.): /polls/8/vote/
+2015-07-23 01:04:28,136 [WARNING] django.request: Forbidden (CSRF token missing or incorrect.): /polls/8/vote/
+2015-07-23 01:06:36,023 [WARNING] django.request: Forbidden (CSRF token missing or incorrect.): /polls/8/vote/
+2015-07-23 01:11:27,687 [WARNING] django.request: Forbidden (CSRF token missing or incorrect.): /polls/8/vote/
+2015-07-23 01:15:08,984 [WARNING] django.request: Forbidden (CSRF token missing or incorrect.): /polls/8/vote/
+2015-07-23 01:15:11,754 [WARNING] django.request: Forbidden (CSRF token missing or incorrect.): /polls/8/vote/
+2015-07-23 01:52:41,581 [ERROR] django.request: Internal Server Error: /polls/2/vote
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/middleware/common.py", line 84, in process_request
+    "settings.") % (new_url[0], new_url[1]))
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to gmmotto.ddns.net/polls/2/vote/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2015-07-23 01:53:22,750 [WARNING] django.request: Forbidden (CSRF token missing or incorrect.): /polls/2/vote/
+2015-07-23 01:55:41,228 [WARNING] django.request: Forbidden (CSRF token missing or incorrect.): /polls/2/vote/
+2015-07-23 02:08:57,613 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-23 02:27:09,090 [ERROR] django.request: Internal Server Error: /polls/2/vote/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/george/djangoSite/polls/views.py", line 31, in vote
+    selected_choice = p.choice_set.get(pk=request.POST['choice'])
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 325, in get
+    clone = self.filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 679, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 697, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1304, in add_q
+    clause, require_inner = self._add_q(where_part, self.used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1332, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1203, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1096, in build_lookup
+    return final_lookup(lhs, rhs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/lookups.py", line 96, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/lookups.py", line 134, in get_prep_lookup
+    return self.lhs.output_field.get_prep_lookup(self.lookup_name, self.rhs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 727, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 985, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+2015-07-23 02:27:09,092 [ERROR] django.request: Internal Server Error: /polls/2/vote/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/george/djangoSite/polls/views.py", line 31, in vote
+    selected_choice = p.choice_set.get(pk=request.POST['choice'])
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 325, in get
+    clone = self.filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 679, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 697, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1304, in add_q
+    clause, require_inner = self._add_q(where_part, self.used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1332, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1203, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1096, in build_lookup
+    return final_lookup(lhs, rhs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/lookups.py", line 96, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/lookups.py", line 134, in get_prep_lookup
+    return self.lhs.output_field.get_prep_lookup(self.lookup_name, self.rhs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 727, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 985, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+2015-07-23 02:27:09,950 [ERROR] django.request: Internal Server Error: /polls/2/vote/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/george/djangoSite/polls/views.py", line 31, in vote
+    selected_choice = p.choice_set.get(pk=request.POST['choice'])
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 325, in get
+    clone = self.filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 679, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 697, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1304, in add_q
+    clause, require_inner = self._add_q(where_part, self.used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1332, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1203, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1096, in build_lookup
+    return final_lookup(lhs, rhs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/lookups.py", line 96, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/lookups.py", line 134, in get_prep_lookup
+    return self.lhs.output_field.get_prep_lookup(self.lookup_name, self.rhs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 727, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 985, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+2015-07-23 02:27:09,953 [ERROR] django.request: Internal Server Error: /polls/2/vote/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/george/djangoSite/polls/views.py", line 31, in vote
+    selected_choice = p.choice_set.get(pk=request.POST['choice'])
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 325, in get
+    clone = self.filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 679, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 697, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1304, in add_q
+    clause, require_inner = self._add_q(where_part, self.used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1332, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1203, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1096, in build_lookup
+    return final_lookup(lhs, rhs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/lookups.py", line 96, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/lookups.py", line 134, in get_prep_lookup
+    return self.lhs.output_field.get_prep_lookup(self.lookup_name, self.rhs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 727, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 985, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+2015-07-23 19:04:10,527 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-23 19:04:20,921 [ERROR] django.request: Internal Server Error: /polls/2/vote/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/george/djangoSite/polls/views.py", line 31, in vote
+    selected_choice = p.choice_set.get(pk=request.POST['choice'])
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 325, in get
+    clone = self.filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 679, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 697, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1304, in add_q
+    clause, require_inner = self._add_q(where_part, self.used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1332, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1203, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1096, in build_lookup
+    return final_lookup(lhs, rhs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/lookups.py", line 96, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/lookups.py", line 134, in get_prep_lookup
+    return self.lhs.output_field.get_prep_lookup(self.lookup_name, self.rhs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 727, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 985, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+2015-07-23 19:04:20,924 [ERROR] django.request: Internal Server Error: /polls/2/vote/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/george/djangoSite/polls/views.py", line 31, in vote
+    selected_choice = p.choice_set.get(pk=request.POST['choice'])
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 325, in get
+    clone = self.filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 679, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 697, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1304, in add_q
+    clause, require_inner = self._add_q(where_part, self.used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1332, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1203, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1096, in build_lookup
+    return final_lookup(lhs, rhs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/lookups.py", line 96, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/lookups.py", line 134, in get_prep_lookup
+    return self.lhs.output_field.get_prep_lookup(self.lookup_name, self.rhs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 727, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 985, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+2015-07-23 19:08:18,506 [WARNING] django.request: Not Found: /polls/static/polls/detail.js
+2015-07-23 19:12:09,160 [ERROR] django.request: Internal Server Error: /polls/2/vote/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 223, in get_response
+    response = middleware_method(request, response)
+  File "/usr/local/lib/python2.7/dist-packages/django/middleware/clickjacking.py", line 31, in process_response
+    if response.get('X-Frame-Options', None) is not None:
+AttributeError: 'str' object has no attribute 'get'
+2015-07-23 19:12:13,014 [ERROR] django.request: Internal Server Error: /polls/2/vote/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 223, in get_response
+    response = middleware_method(request, response)
+  File "/usr/local/lib/python2.7/dist-packages/django/middleware/clickjacking.py", line 31, in process_response
+    if response.get('X-Frame-Options', None) is not None:
+AttributeError: 'str' object has no attribute 'get'
+2015-07-23 19:13:27,677 [ERROR] django.request: Internal Server Error: /polls/2/vote/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 223, in get_response
+    response = middleware_method(request, response)
+  File "/usr/local/lib/python2.7/dist-packages/django/middleware/clickjacking.py", line 31, in process_response
+    if response.get('X-Frame-Options', None) is not None:
+AttributeError: 'str' object has no attribute 'get'
+2015-07-23 19:15:27,259 [ERROR] django.request: Internal Server Error: /polls/2/vote/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/george/djangoSite/polls/views.py", line 31, in vote
+    selected_choice = p.choice_set.get(pk=request.POST['choice'])
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 325, in get
+    clone = self.filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 679, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 697, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1304, in add_q
+    clause, require_inner = self._add_q(where_part, self.used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1332, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1203, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1096, in build_lookup
+    return final_lookup(lhs, rhs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/lookups.py", line 96, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/lookups.py", line 134, in get_prep_lookup
+    return self.lhs.output_field.get_prep_lookup(self.lookup_name, self.rhs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 727, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 985, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+2015-07-23 19:15:28,616 [ERROR] django.request: Internal Server Error: /polls/2/vote/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/george/djangoSite/polls/views.py", line 31, in vote
+    selected_choice = p.choice_set.get(pk=request.POST['choice'])
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 325, in get
+    clone = self.filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 679, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 697, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1304, in add_q
+    clause, require_inner = self._add_q(where_part, self.used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1332, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1203, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1096, in build_lookup
+    return final_lookup(lhs, rhs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/lookups.py", line 96, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/lookups.py", line 134, in get_prep_lookup
+    return self.lhs.output_field.get_prep_lookup(self.lookup_name, self.rhs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 727, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 985, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+2015-07-23 19:15:29,279 [ERROR] django.request: Internal Server Error: /polls/2/vote/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/george/djangoSite/polls/views.py", line 31, in vote
+    selected_choice = p.choice_set.get(pk=request.POST['choice'])
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 325, in get
+    clone = self.filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 679, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 697, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1304, in add_q
+    clause, require_inner = self._add_q(where_part, self.used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1332, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1203, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1096, in build_lookup
+    return final_lookup(lhs, rhs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/lookups.py", line 96, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/lookups.py", line 134, in get_prep_lookup
+    return self.lhs.output_field.get_prep_lookup(self.lookup_name, self.rhs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 727, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 985, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+2015-07-23 19:15:29,681 [ERROR] django.request: Internal Server Error: /polls/2/vote/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/george/djangoSite/polls/views.py", line 31, in vote
+    selected_choice = p.choice_set.get(pk=request.POST['choice'])
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 325, in get
+    clone = self.filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 679, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 697, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1304, in add_q
+    clause, require_inner = self._add_q(where_part, self.used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1332, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1203, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1096, in build_lookup
+    return final_lookup(lhs, rhs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/lookups.py", line 96, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/lookups.py", line 134, in get_prep_lookup
+    return self.lhs.output_field.get_prep_lookup(self.lookup_name, self.rhs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 727, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 985, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+2015-07-23 19:15:30,051 [ERROR] django.request: Internal Server Error: /polls/2/vote/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/george/djangoSite/polls/views.py", line 31, in vote
+    selected_choice = p.choice_set.get(pk=request.POST['choice'])
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 325, in get
+    clone = self.filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 679, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 697, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1304, in add_q
+    clause, require_inner = self._add_q(where_part, self.used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1332, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1203, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1096, in build_lookup
+    return final_lookup(lhs, rhs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/lookups.py", line 96, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/lookups.py", line 134, in get_prep_lookup
+    return self.lhs.output_field.get_prep_lookup(self.lookup_name, self.rhs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 727, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 985, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+2015-07-23 22:21:58,428 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-23 22:21:58,626 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-23 22:22:38,628 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-23 22:36:12,113 [WARNING] django.request: Not Found: /admn
+2015-07-24 01:16:55,283 [ERROR] django.request: Internal Server Error: /polls/addQuestion/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/george/djangoSite/polls/views.py", line 61, in addQuestion
+    if question.question_text == request.POST['newQuestion']:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/datastructures.py", line 322, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'newQuestion'"
+2015-07-24 01:20:07,080 [ERROR] django.request: Internal Server Error: /polls/addQuestion/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/george/djangoSite/polls/views.py", line 61, in addQuestion
+    if question.question_text == request.POST['newQuestion']:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/datastructures.py", line 322, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'newQuestion'"

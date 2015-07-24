@@ -8,14 +8,16 @@
 </head>
 <body>
 
-<h1 id="question" name="{{ question.id }}">{{ question.question_text }}</h1>
+<h1>{{ question.question_text }}</h1>
 
-<p><strong id="errorMessage"></strong></p>
-
+{% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+<form action="{% url 'polls:vote' question.id %}" method="post">
+{% csrf_token %}
 {% for choice in question.choice_set.all %}
 <div class='row'>
 <div class='inputContainer'>
-	<div class='radioButton' name='unselected' id="{{ choice.id }}"><span>{{ choice.choice_text }}</span></div>
+    <input type="radio" name="choice" id="choice{{ forloop.counter }}" value="{{ choice.id }}" />
+    <label for="choice{{ forloop.counter }}">{{ choice.choice_text }}</label>
 </div>
 <div class="voteMeterParent">
 	{% for i in choice.votes|get_range %}
@@ -28,12 +30,15 @@
 </div>
 {% endfor %}
 <br/>
-<div class="voteButton">Vote</div>
+
+<input type="submit" value="Vote" />
+</form>
 <br/>
 <h4>Add another choice:</h4>
-<form>
-<input id="newChoice" type='text' name="newChoice" placeholder=" New Choice">
-<input id="newChoiceSubmit" type="button" value="Submit"/>
+<form action="{% url 'polls:addChoice' question.id %}" method="post">
+{% csrf_token %}
+<input type='text' name="newChoice" placeholder=" New Choice">
+<input type='submit' value="Submit" />
 </form>
 <br/>
 <hr/>
@@ -41,9 +46,4 @@
 
 <script src='{% static "jquery.js" %}'></script>
 <script src='{% static "polls/detail.js" %}'></script>
-<script>
-$.ajaxSetup({
-	data: {csrfmiddlewaretoken: '{{ csrf_token }}'},
-});
-</script>
 </body>

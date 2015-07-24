@@ -1,8 +1,11 @@
 {% load staticfiles %}
-
+<head>
 <link rel='stylesheet' type='text/css' href='{% static "bootstrap/normalize.css" %}'/>
 <link rel='stylesheet' type='text/css' href='{% static "bootstrap/bootstrap.css" %}'/>
 <link rel='stylesheet' type='text/css' href='{% static "polls/style.css" %}'/>
+</head>
+
+<body>
 
 <h1>Millercodes Polls</h1>
 <h6>Pick a question to see votes, and vote yourself</h6>
@@ -18,11 +21,21 @@
 {% endif %}
 <h6>Or start a new question!</h6>
 
-<form action='{% url 'polls:addQuestion' %}' method='post'>
-{% csrf_token %}
-<input type='text' name='newQuestion' placeholder='New Question' />
-<input type='submit' value='Submit' />
+<p><strong id="questionError"></strong></p>
+<form>
+<input type='text' id='newQuestion' placeholder=' New Question' />
+<input id="newQuestionSubmit" type='button' value='Submit' />
 </form>
 <br/>
 <hr/>
 <a href="/../">Go back to the homepage</a>
+
+<script src='{% static "jquery.js" %}'></script>
+<script src='{% static "polls/index.js" %}'></script>
+<script>
+$.ajaxSetup({
+	data: {csrfmiddlewaretoken: '{{ csrf_token }}'},
+});
+</script>
+</body>
+

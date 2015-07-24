@@ -7,7 +7,7 @@ body{
 }
 input{
 	background-color:white;
-	border: 2px solid;
+	border: 2px groove;
 	float:left;
 }
 label{
@@ -17,7 +17,8 @@ label{
 .inputContainer{
 	width:20%;
 	float:left;
-	min-width:140px;
+	min-width:120px;
+	margin:5px;
 }
 .voteMeterParent{
 	width:30%;
@@ -26,13 +27,35 @@ label{
 .numOfVotes:after{
 	clear:left;
 }
-span{
-	margin-bottom:4px;
-}
 .voteMeter{
 	margin-left:10px;
 	float:left;
 	position:relative;
 	border: 2px solid;
 	top:8px;
+}
+.radioButton{
+	background-color:gray;
+	padding-left:10px;
+	border-radius:10px;
+	float:left;
+	width:100%;
+}
+.radioButton:hover{
+	cursor:pointer;
+}
+
+.radioButtonLabel{
+	float:left;
+	margin-top:5px;
+}
+.voteButton{
+	height:25px;
+	width:50px;
+	background-color:white;
+	border:2px groove;
+	text-align:center;
+}
+.voteButton:hover{
+	cursor:pointer;
 }
