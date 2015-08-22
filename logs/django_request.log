@@ -3116,3 +3116,4 @@ AttributeError: 'NoneType' object has no attribute 'endswith'
 2015-08-04 20:17:24,909 [WARNING] django.request: Not Found: /george/static/polls/index.js
 2015-08-04 20:17:24,914 [WARNING] django.request: Not Found: /george/static/jquery.js
 2015-08-04 20:17:26,133 [WARNING] django.request: Not Found: /george/static/bootstrap/bootstrap.css
+2015-08-22 16:44:49,108 [WARNING] django.request: Not Found: /george/george/polls/

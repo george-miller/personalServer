@@ -10,7 +10,7 @@ https://docs.djangoproject.com/en/1.8/howto/deployment/wsgi/
 import os
 import sys
 
-sys.path.append("/home/george/djangoSite/")
+sys.path.append("/home/george/PersonalProjects/djangoSite/")
 
 from django.core.wsgi import get_wsgi_application
 
