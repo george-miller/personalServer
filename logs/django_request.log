@@ -2700,3 +2700,419 @@ Traceback (most recent call last):
   File "/usr/local/lib/python2.7/dist-packages/django/utils/datastructures.py", line 322, in __getitem__
     raise MultiValueDictKeyError(repr(key))
 MultiValueDictKeyError: "'newQuestion'"
+2015-07-24 12:50:23,252 [WARNING] django.request: Not Found: /testproxy.php
+2015-07-24 13:14:54,287 [WARNING] django.request: Not Found: /muieblackcat
+2015-07-24 13:14:54,478 [WARNING] django.request: Not Found: /phpMyAdmin/scripts/setup.php
+2015-07-24 13:14:54,667 [WARNING] django.request: Not Found: /phpmyadmin/scripts/setup.php
+2015-07-24 13:14:54,859 [WARNING] django.request: Not Found: /pma/scripts/setup.php
+2015-07-24 13:14:55,051 [WARNING] django.request: Not Found: /myadmin/scripts/setup.php
+2015-07-24 13:14:55,247 [WARNING] django.request: Not Found: /MyAdmin/scripts/setup.php
+2015-07-24 14:08:00,407 [WARNING] django.request: Not Found: /admin/bootstrap.inc.php
+2015-07-24 15:11:15,197 [WARNING] django.request: Not Found: /admin/bootstrap.inc.php
+2015-07-24 18:38:13,635 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-24 18:38:13,643 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-24 19:22:14,857 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-24 19:24:32,509 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-24 20:11:36,366 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-24 20:11:36,397 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-25 00:18:18,139 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-25 12:04:38,494 [WARNING] django.request: Not Found: /nowherereally
+2015-07-25 19:39:32,373 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-25 19:39:32,379 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-26 00:00:26,083 [WARNING] django.request: Not Found: /testproxy.php
+2015-07-26 07:19:43,481 [WARNING] django.request: Not Found: /local-bin/php
+2015-07-26 07:19:43,586 [WARNING] django.request: Not Found: /cgi-bin/php4
+2015-07-26 07:19:43,629 [WARNING] django.request: Not Found: /phppath/php5
+2015-07-26 07:19:43,705 [WARNING] django.request: Not Found: /local-bin/php5
+2015-07-26 07:19:43,833 [WARNING] django.request: Not Found: /cgi-bin/php5
+2015-07-26 07:19:43,941 [WARNING] django.request: Not Found: /index.php
+2015-07-26 07:19:43,976 [WARNING] django.request: Not Found: /phppath/php
+2015-07-26 07:19:44,128 [WARNING] django.request: Not Found: /cgi-bin/php-cgi
+2015-07-26 07:19:44,275 [WARNING] django.request: Not Found: /cgi-bin/php
+2015-07-26 07:19:44,446 [WARNING] django.request: Not Found: /cgi-bin/php.cgi
+2015-07-26 12:27:49,260 [WARNING] django.request: Not Found: /rom-0
+2015-07-26 14:53:46,387 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-26 14:53:46,406 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-27 02:44:07,686 [WARNING] django.request: Not Found: /manager/html
+2015-07-27 13:03:05,701 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-27 13:03:05,714 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-27 17:55:39,619 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-27 17:55:39,633 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-27 17:55:40,455 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-27 18:10:34,865 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-27 19:31:56,505 [WARNING] django.request: Not Found: /testproxy.php
+2015-07-28 06:17:41,245 [WARNING] django.request: Not Found: /Ringing.at.your.dorbell!
+2015-07-28 06:17:41,437 [WARNING] django.request: Not Found: /Diagnostics.asp
+2015-07-28 12:09:02,826 [WARNING] django.request: Not Found: /phpmyadmin/scripts/setup.php
+2015-07-28 12:15:13,270 [WARNING] django.request: Not Found: /pma/scripts/setup.php
+2015-07-28 20:04:37,076 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-28 20:04:37,086 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-29 05:06:41,501 [WARNING] django.request: Not Found: /cgi-bin/php
+2015-07-29 05:06:41,548 [WARNING] django.request: Not Found: /cgi-bin/php5
+2015-07-29 05:06:41,596 [WARNING] django.request: Not Found: /cgi-bin/php-cgi
+2015-07-29 05:06:41,643 [WARNING] django.request: Not Found: /cgi-bin/php.cgi
+2015-07-29 05:06:41,688 [WARNING] django.request: Not Found: /cgi-bin/php4
+2015-07-29 06:52:27,808 [WARNING] django.request: Not Found: /testproxy.php
+2015-07-29 09:12:57,863 [WARNING] django.request: Not Found: /phpmyadmin2/scripts/setup.php
+2015-07-29 09:45:00,045 [WARNING] django.request: Not Found: /mysqladmin/scripts/setup.php
+2015-07-29 14:50:52,019 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-29 14:50:52,029 [WARNING] django.request: Not Found: /favicon.ico
+2015-07-29 23:52:59,346 [WARNING] django.request: Not Found: /tmUnblock.cgi
+2015-07-30 13:31:10,117 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-07-30 15:21:16,302 [WARNING] django.request: Not Found: /rom-0
+2015-07-30 15:45:39,674 [WARNING] django.request: Not Found: /rom-0
+2015-07-31 01:57:13,801 [WARNING] django.request: Not Found: /testproxy.php
+2015-07-31 13:32:32,410 [WARNING] django.request: Not Found: /muieblackcat
+2015-07-31 13:32:34,138 [WARNING] django.request: Not Found: /phpMyAdmin/scripts/setup.php
+2015-07-31 13:32:37,825 [WARNING] django.request: Not Found: /pma/scripts/setup.php
+2015-07-31 13:32:41,938 [WARNING] django.request: Not Found: /MyAdmin/scripts/setup.php
+2015-07-31 14:21:53,685 [WARNING] django.request: Not Found: /favicon.ico
+2015-08-01 13:52:41,917 [WARNING] django.request: Not Found: /rom-0
+2015-08-01 14:59:37,153 [WARNING] django.request: Not Found: /favicon.ico
+2015-08-01 17:02:04,052 [WARNING] django.request: Not Found: /testproxy.php
+2015-08-01 23:25:42,984 [WARNING] django.request: Forbidden (CSRF cookie not set.): /
+2015-08-01 23:37:18,036 [WARNING] django.request: Not Found: /favicon.ico
+2015-08-01 23:48:35,057 [WARNING] django.request: Not Found: /test
+2015-08-01 23:59:59,958 [WARNING] django.request: Not Found: /favicon.ico
+2015-08-02 23:53:22,623 [WARNING] django.request: Not Found: /george/static/bootstrap/normalize.css
+2015-08-02 23:53:22,634 [WARNING] django.request: Not Found: /george/static/bootstrap/bootstrap.css
+2015-08-02 23:53:22,643 [WARNING] django.request: Not Found: /george/static/polls/style.css
+2015-08-02 23:53:22,654 [WARNING] django.request: Not Found: /george/static/jquery.js
+2015-08-02 23:53:22,664 [WARNING] django.request: Not Found: /george/static/polls/index.js
+2015-08-02 23:54:51,642 [WARNING] django.request: Not Found: /george/static/bootstrap/normalize.css
+2015-08-02 23:54:51,644 [WARNING] django.request: Not Found: /george/static/bootstrap/bootstrap.css
+2015-08-02 23:54:51,672 [WARNING] django.request: Not Found: /george/static/polls/style.css
+2015-08-02 23:54:51,674 [WARNING] django.request: Not Found: /george/static/jquery.js
+2015-08-02 23:54:51,677 [WARNING] django.request: Not Found: /george/static/polls/index.js
+2015-08-02 23:58:04,888 [WARNING] django.request: Not Found: /george/static/bootstrap/normalize.css
+2015-08-02 23:58:11,288 [WARNING] django.request: Not Found: /george/static
+2015-08-02 23:58:44,518 [WARNING] django.request: Not Found: /george/static/bootstrap/bootstrap.css
+2015-08-02 23:59:45,386 [WARNING] django.request: Not Found: /george/static/bootstrap/bootstrap.css
+2015-08-02 23:59:46,796 [WARNING] django.request: Not Found: /george/static/bootstrap/bootstrap.css
+2015-08-02 23:59:47,376 [WARNING] django.request: Not Found: /george/static/bootstrap/bootstrap.css
+2015-08-02 23:59:47,946 [WARNING] django.request: Not Found: /george/static/bootstrap/bootstrap.css
+2015-08-03 00:05:56,140 [ERROR] django.request: Internal Server Error: /george/polls/george/static/bootstrap/normalize.css
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/static.py", line 54, in serve
+    fullpath = os.path.join(document_root, newpath)
+  File "/usr/lib/python2.7/posixpath.py", line 77, in join
+    elif path == '' or path.endswith('/'):
+AttributeError: 'NoneType' object has no attribute 'endswith'
+2015-08-03 00:05:56,150 [ERROR] django.request: Internal Server Error: /george/polls/george/static/polls/style.css
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/static.py", line 54, in serve
+    fullpath = os.path.join(document_root, newpath)
+  File "/usr/lib/python2.7/posixpath.py", line 77, in join
+    elif path == '' or path.endswith('/'):
+AttributeError: 'NoneType' object has no attribute 'endswith'
+2015-08-03 00:05:56,150 [ERROR] django.request: Internal Server Error: /george/polls/george/static/bootstrap/bootstrap.css
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/static.py", line 54, in serve
+    fullpath = os.path.join(document_root, newpath)
+  File "/usr/lib/python2.7/posixpath.py", line 77, in join
+    elif path == '' or path.endswith('/'):
+AttributeError: 'NoneType' object has no attribute 'endswith'
+2015-08-03 00:05:56,187 [ERROR] django.request: Internal Server Error: /george/polls/george/static/jquery.js
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/static.py", line 54, in serve
+    fullpath = os.path.join(document_root, newpath)
+  File "/usr/lib/python2.7/posixpath.py", line 77, in join
+    elif path == '' or path.endswith('/'):
+AttributeError: 'NoneType' object has no attribute 'endswith'
+2015-08-03 00:05:56,193 [ERROR] django.request: Internal Server Error: /george/polls/george/static/polls/index.js
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/static.py", line 54, in serve
+    fullpath = os.path.join(document_root, newpath)
+  File "/usr/lib/python2.7/posixpath.py", line 77, in join
+    elif path == '' or path.endswith('/'):
+AttributeError: 'NoneType' object has no attribute 'endswith'
+2015-08-03 00:06:02,600 [WARNING] django.request: Not Found: /george/static/bootstrap/normalize.css
+2015-08-03 00:08:01,261 [WARNING] django.request: Not Found: /george/static/bootstrap/normalize.css
+2015-08-03 00:09:45,101 [WARNING] django.request: Not Found: /george/static/bootstrap/normalize.css
+2015-08-03 00:09:45,905 [WARNING] django.request: Not Found: /george/static/bootstrap/normalize.css
+2015-08-03 00:09:46,455 [WARNING] django.request: Not Found: /george/static/bootstrap/normalize.css
+2015-08-03 00:10:17,929 [ERROR] django.request: Internal Server Error: /george/static/bootstrap/normalize.css
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/static.py", line 54, in serve
+    fullpath = os.path.join(document_root, newpath)
+  File "/usr/lib/python2.7/posixpath.py", line 77, in join
+    elif path == '' or path.endswith('/'):
+AttributeError: 'NoneType' object has no attribute 'endswith'
+2015-08-03 00:10:40,884 [ERROR] django.request: Internal Server Error: /george/static/bootstrap/normalize.css
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/static.py", line 54, in serve
+    fullpath = os.path.join(document_root, newpath)
+  File "/usr/lib/python2.7/posixpath.py", line 77, in join
+    elif path == '' or path.endswith('/'):
+AttributeError: 'NoneType' object has no attribute 'endswith'
+2015-08-03 00:13:44,547 [WARNING] django.request: Not Found: /george/static/bootstrap/normalize.css
+2015-08-03 00:13:50,680 [WARNING] django.request: Not Found: /george/static/bootstrap/normalize.css
+2015-08-03 00:13:50,681 [WARNING] django.request: Not Found: /george/static/bootstrap/bootstrap.css
+2015-08-03 00:13:50,701 [WARNING] django.request: Not Found: /george/static/polls/style.css
+2015-08-03 00:13:50,702 [WARNING] django.request: Not Found: /george/static/jquery.js
+2015-08-03 00:13:50,709 [WARNING] django.request: Not Found: /george/static/polls/index.js
+2015-08-03 00:19:26,052 [WARNING] django.request: Not Found: /george/static/bootstrap/normalize.css
+2015-08-03 00:20:50,871 [ERROR] django.request: Internal Server Error: /george/static/bootstrap/normalize.css
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/static.py", line 54, in serve
+    fullpath = os.path.join(document_root, newpath)
+  File "/usr/lib/python2.7/posixpath.py", line 77, in join
+    elif path == '' or path.endswith('/'):
+AttributeError: 'NoneType' object has no attribute 'endswith'
+2015-08-03 00:20:57,553 [ERROR] django.request: Internal Server Error: /george/static/bootstrap/bootstrap.css
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/static.py", line 54, in serve
+    fullpath = os.path.join(document_root, newpath)
+  File "/usr/lib/python2.7/posixpath.py", line 77, in join
+    elif path == '' or path.endswith('/'):
+AttributeError: 'NoneType' object has no attribute 'endswith'
+2015-08-03 00:23:16,459 [WARNING] django.request: Not Found: /george/polls/static/bootstrap/normalize.css
+2015-08-03 00:23:16,479 [WARNING] django.request: Not Found: /george/polls/static/bootstrap/bootstrap.css
+2015-08-03 00:23:16,490 [WARNING] django.request: Not Found: /george/polls/static/jquery.js
+2015-08-03 00:23:16,491 [WARNING] django.request: Not Found: /george/polls/static/polls/style.css
+2015-08-03 00:23:16,508 [WARNING] django.request: Not Found: /george/polls/static/polls/index.js
+2015-08-03 23:31:32,481 [WARNING] django.request: Not Found: /george/polls/static/bootstrap/normalize.css
+2015-08-03 23:31:32,501 [WARNING] django.request: Not Found: /george/polls/static/bootstrap/bootstrap.css
+2015-08-03 23:31:32,510 [WARNING] django.request: Not Found: /george/polls/static/polls/style.css
+2015-08-03 23:31:32,511 [WARNING] django.request: Not Found: /george/polls/static/jquery.js
+2015-08-03 23:31:32,528 [WARNING] django.request: Not Found: /george/polls/static/polls/index.js
+2015-08-03 23:33:17,369 [ERROR] django.request: Internal Server Error: /george/static/bootstrap/bootstrap.css
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/static.py", line 54, in serve
+    fullpath = os.path.join(document_root, newpath)
+  File "/usr/lib/python2.7/posixpath.py", line 77, in join
+    elif path == '' or path.endswith('/'):
+AttributeError: 'NoneType' object has no attribute 'endswith'
+2015-08-03 23:33:37,878 [ERROR] django.request: Internal Server Error: /george/static/bootstrap/bootstrap.css
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/static.py", line 54, in serve
+    fullpath = os.path.join(document_root, newpath)
+  File "/usr/lib/python2.7/posixpath.py", line 77, in join
+    elif path == '' or path.endswith('/'):
+AttributeError: 'NoneType' object has no attribute 'endswith'
+2015-08-03 23:38:09,683 [ERROR] django.request: Internal Server Error: /george/static/bootstrap/bootstrap.css
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/static.py", line 54, in serve
+    fullpath = os.path.join(document_root, newpath)
+  File "/usr/lib/python2.7/posixpath.py", line 77, in join
+    elif path == '' or path.endswith('/'):
+AttributeError: 'NoneType' object has no attribute 'endswith'
+2015-08-03 23:38:34,216 [ERROR] django.request: Internal Server Error: /george/static/bootstrap/bootstrap.css
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/static.py", line 54, in serve
+    fullpath = os.path.join(document_root, newpath)
+  File "/usr/lib/python2.7/posixpath.py", line 77, in join
+    elif path == '' or path.endswith('/'):
+AttributeError: 'NoneType' object has no attribute 'endswith'
+2015-08-03 23:40:30,360 [WARNING] django.request: Not Found: /george/static/bootstrap/bootstrap.css
+2015-08-03 23:40:45,330 [WARNING] django.request: Not Found: /george/static/bootstrap/bootstrap.css
+2015-08-03 23:43:26,506 [WARNING] django.request: Not Found: /george/admin/login/george/static/admin/css/base.css
+2015-08-03 23:43:26,526 [WARNING] django.request: Not Found: /george/admin/login/george/static/admin/css/login.css
+2015-08-03 23:43:28,398 [WARNING] django.request: Not Found: /george/admin/george/static/admin/css/base.css
+2015-08-03 23:43:28,400 [WARNING] django.request: Not Found: /george/admin/george/static/admin/css/dashboard.css
+2015-08-03 23:44:42,615 [WARNING] django.request: Not Found: /george/static/bootstrap/bootstrap.css
+2015-08-03 23:46:05,805 [ERROR] django.request: Internal Server Error: /george/static/bootstrap/bootstrap.css
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/static.py", line 54, in serve
+    fullpath = os.path.join(document_root, newpath)
+  File "/usr/lib/python2.7/posixpath.py", line 77, in join
+    elif path == '' or path.endswith('/'):
+AttributeError: 'NoneType' object has no attribute 'endswith'
+2015-08-03 23:49:13,869 [ERROR] django.request: Internal Server Error: /george/static/bootstrap/bootstrap.css
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/static.py", line 54, in serve
+    fullpath = os.path.join(document_root, newpath)
+  File "/usr/lib/python2.7/posixpath.py", line 77, in join
+    elif path == '' or path.endswith('/'):
+AttributeError: 'NoneType' object has no attribute 'endswith'
+2015-08-03 23:49:17,971 [ERROR] django.request: Internal Server Error: /george/static/bootstrap/bootstrap.css
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/static.py", line 54, in serve
+    fullpath = os.path.join(document_root, newpath)
+  File "/usr/lib/python2.7/posixpath.py", line 77, in join
+    elif path == '' or path.endswith('/'):
+AttributeError: 'NoneType' object has no attribute 'endswith'
+2015-08-03 23:50:02,175 [ERROR] django.request: Internal Server Error: /george/static/bootstrap/bootstrap.css
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/static.py", line 54, in serve
+    fullpath = os.path.join(document_root, newpath)
+  File "/usr/lib/python2.7/posixpath.py", line 77, in join
+    elif path == '' or path.endswith('/'):
+AttributeError: 'NoneType' object has no attribute 'endswith'
+2015-08-03 23:50:03,720 [ERROR] django.request: Internal Server Error: /george/static/bootstrap/bootstrap.css
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/static.py", line 54, in serve
+    fullpath = os.path.join(document_root, newpath)
+  File "/usr/lib/python2.7/posixpath.py", line 77, in join
+    elif path == '' or path.endswith('/'):
+AttributeError: 'NoneType' object has no attribute 'endswith'
+2015-08-03 23:50:07,020 [ERROR] django.request: Internal Server Error: /george/static/bootstrap/bootstrap.css
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/static.py", line 54, in serve
+    fullpath = os.path.join(document_root, newpath)
+  File "/usr/lib/python2.7/posixpath.py", line 77, in join
+    elif path == '' or path.endswith('/'):
+AttributeError: 'NoneType' object has no attribute 'endswith'
+2015-08-03 23:50:55,647 [WARNING] django.request: Not Found: /george/static/bootstrap/bootstrap.css
+2015-08-04 17:18:39,972 [WARNING] django.request: Not Found: /george/polls/george/static/bootstrap/normalize.css
+2015-08-04 17:18:39,984 [WARNING] django.request: Not Found: /george/polls/george/static/bootstrap/bootstrap.css
+2015-08-04 17:18:39,995 [WARNING] django.request: Not Found: /george/polls/george/static/polls/style.css
+2015-08-04 17:18:40,001 [WARNING] django.request: Not Found: /george/polls/george/static/jquery.js
+2015-08-04 17:18:40,002 [WARNING] django.request: Not Found: /george/polls/george/static/polls/index.js
+2015-08-04 17:18:44,001 [WARNING] django.request: Not Found: /george/polls/george/static/bootstrap/bootstrap.css
+2015-08-04 17:18:44,009 [WARNING] django.request: Not Found: /george/polls/george/static/polls/style.css
+2015-08-04 17:18:44,010 [WARNING] django.request: Not Found: /george/polls/george/static/bootstrap/normalize.css
+2015-08-04 17:19:16,965 [WARNING] django.request: Not Found: /george/static/bootstrap/bootstrap.css
+2015-08-04 17:23:41,462 [WARNING] django.request: Not Found: /george/static/bootstrap/bootstrap.css
+2015-08-04 17:23:57,538 [WARNING] django.request: Not Found: /george/static/bootstrap/bootstrap.css
+2015-08-04 17:24:42,193 [WARNING] django.request: Not Found: /george/polls/george/static/bootstrap/normalize.css
+2015-08-04 17:24:42,195 [WARNING] django.request: Not Found: /george/polls/george/static/bootstrap/bootstrap.css
+2015-08-04 17:24:42,210 [WARNING] django.request: Not Found: /george/polls/george/static/polls/style.css
+2015-08-04 17:24:42,211 [WARNING] django.request: Not Found: /george/polls/george/static/jquery.js
+2015-08-04 17:24:42,212 [WARNING] django.request: Not Found: /george/polls/george/static/polls/index.js
+2015-08-04 17:24:44,483 [WARNING] django.request: Not Found: /george/polls/george/static/bootstrap/bootstrap.css
+2015-08-04 17:24:44,491 [WARNING] django.request: Not Found: /george/polls/george/static/bootstrap/normalize.css
+2015-08-04 17:24:44,493 [WARNING] django.request: Not Found: /george/polls/george/static/polls/style.css
+2015-08-04 17:25:19,722 [WARNING] django.request: Not Found: /george/static/jquery.js
+2015-08-04 17:25:47,415 [WARNING] django.request: Not Found: /george/static/jquery.js
+2015-08-04 17:25:59,211 [ERROR] django.request: Internal Server Error: /george/static/jquery.js
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/static.py", line 54, in serve
+    fullpath = os.path.join(document_root, newpath)
+  File "/usr/lib/python2.7/posixpath.py", line 77, in join
+    elif path == '' or path.endswith('/'):
+AttributeError: 'NoneType' object has no attribute 'endswith'
+2015-08-04 17:29:41,091 [ERROR] django.request: Internal Server Error: /george/static/jquery.js
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/static.py", line 54, in serve
+    fullpath = os.path.join(document_root, newpath)
+  File "/usr/lib/python2.7/posixpath.py", line 77, in join
+    elif path == '' or path.endswith('/'):
+AttributeError: 'NoneType' object has no attribute 'endswith'
+2015-08-04 17:30:09,303 [ERROR] django.request: Internal Server Error: /george/static/jquery.js/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/static.py", line 54, in serve
+    fullpath = os.path.join(document_root, newpath)
+  File "/usr/lib/python2.7/posixpath.py", line 77, in join
+    elif path == '' or path.endswith('/'):
+AttributeError: 'NoneType' object has no attribute 'endswith'
+2015-08-04 17:35:38,998 [ERROR] django.request: Internal Server Error: /george/static/jquery.js/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/static.py", line 54, in serve
+    fullpath = os.path.join(document_root, newpath)
+  File "/usr/lib/python2.7/posixpath.py", line 77, in join
+    elif path == '' or path.endswith('/'):
+AttributeError: 'NoneType' object has no attribute 'endswith'
+2015-08-04 17:35:46,337 [ERROR] django.request: Internal Server Error: /george/static/jquery.js/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/static.py", line 54, in serve
+    fullpath = os.path.join(document_root, newpath)
+  File "/usr/lib/python2.7/posixpath.py", line 77, in join
+    elif path == '' or path.endswith('/'):
+AttributeError: 'NoneType' object has no attribute 'endswith'
+2015-08-04 19:30:13,819 [ERROR] django.request: Internal Server Error: /george/static/bootstrap/bootstrap.css
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/static.py", line 54, in serve
+    fullpath = os.path.join(document_root, newpath)
+  File "/usr/lib/python2.7/posixpath.py", line 77, in join
+    elif path == '' or path.endswith('/'):
+AttributeError: 'NoneType' object has no attribute 'endswith'
+2015-08-04 19:34:08,488 [WARNING] django.request: Not Found: /george/static/bootstrap/bootstrap.css
+2015-08-04 19:39:49,627 [WARNING] django.request: Not Found: /george/george/polls/
+2015-08-04 19:39:59,090 [WARNING] django.request: Not Found: /george/polls/static/bootstrap/normalize.css
+2015-08-04 19:39:59,102 [WARNING] django.request: Not Found: /george/polls/static/bootstrap/bootstrap.css
+2015-08-04 19:39:59,117 [WARNING] django.request: Not Found: /george/polls/static/polls/style.css
+2015-08-04 19:39:59,127 [WARNING] django.request: Not Found: /george/polls/static/jquery.js
+2015-08-04 19:39:59,137 [WARNING] django.request: Not Found: /george/polls/static/polls/index.js
+2015-08-04 19:44:06,249 [WARNING] django.request: Not Found: /george/static/bootstrap/normalize.css
+2015-08-04 19:44:06,271 [WARNING] django.request: Not Found: /george/static/bootstrap/bootstrap.css
+2015-08-04 19:44:06,297 [WARNING] django.request: Not Found: /george/static/polls/style.css
+2015-08-04 19:44:06,319 [WARNING] django.request: Not Found: /george/static/polls/index.js
+2015-08-04 19:44:06,320 [WARNING] django.request: Not Found: /george/static/jquery.js
+2015-08-04 19:44:19,155 [WARNING] django.request: Not Found: /george/static/bootstrap/bootstrap.css
+2015-08-04 19:45:20,076 [WARNING] django.request: Not Found: /george/static/bootstrap/bootstrap.css
+2015-08-04 19:45:30,815 [WARNING] django.request: Not Found: /george/static/bootstrap/bootstrap.css
+2015-08-04 19:45:31,911 [WARNING] django.request: Not Found: /george/static/bootstrap/bootstrap.css
+2015-08-04 19:45:33,033 [WARNING] django.request: Not Found: /george/static/bootstrap/bootstrap.css
+2015-08-04 19:49:12,698 [WARNING] django.request: Not Found: /george/static/bootstrap/bootstrap.css
+2015-08-04 19:49:16,636 [WARNING] django.request: Not Found: /george/static/bootstrap/bootstrap.css
+2015-08-04 19:49:18,016 [WARNING] django.request: Not Found: /george/static/bootstrap/bootstrap.css
+2015-08-04 20:07:40,402 [WARNING] django.request: Not Found: /george/static/bootstrap/bootstrap.css
+2015-08-04 20:07:51,821 [WARNING] django.request: Not Found: /george/staticRoot/bootstrap/bootstrap.css
+2015-08-04 20:08:39,041 [WARNING] django.request: Not Found: /george/staticRoot/bootstrap/bootstrap.css
+2015-08-04 20:08:40,668 [WARNING] django.request: Not Found: /george/staticRoot/bootstrap/bootstrap.css
+2015-08-04 20:08:53,623 [WARNING] django.request: Not Found: /george/staticRoot/bootstrap/bootstrap.css
+2015-08-04 20:11:11,471 [WARNING] django.request: Not Found: /george/staticRoot/bootstrap/bootstrap.css
+2015-08-04 20:11:15,571 [WARNING] django.request: Not Found: /george/static/bootstrap/bootstrap.css
+2015-08-04 20:12:11,929 [WARNING] django.request: Not Found: /george/static/bootstrap/bootstrap.css
+2015-08-04 20:12:18,470 [WARNING] django.request: Not Found: /george/staticDir/bootstrap/bootstrap.css
+2015-08-04 20:12:22,603 [WARNING] django.request: Not Found: /george/static/bootstrap/bootstrap.css
+2015-08-04 20:13:07,903 [WARNING] django.request: Not Found: /george/polls/static/bootstrap/normalize.css
+2015-08-04 20:13:07,931 [WARNING] django.request: Not Found: /george/polls/static/polls/style.css
+2015-08-04 20:13:07,933 [WARNING] django.request: Not Found: /george/polls/static/bootstrap/bootstrap.css
+2015-08-04 20:13:07,948 [WARNING] django.request: Not Found: /george/polls/static/jquery.js
+2015-08-04 20:13:07,960 [WARNING] django.request: Not Found: /george/polls/static/polls/index.js
+2015-08-04 20:13:10,716 [WARNING] django.request: Not Found: /george/polls/static/polls/style.css
+2015-08-04 20:13:10,718 [WARNING] django.request: Not Found: /george/polls/static/bootstrap/normalize.css
+2015-08-04 20:13:10,728 [WARNING] django.request: Not Found: /george/polls/static/bootstrap/bootstrap.css
+2015-08-04 20:17:10,327 [WARNING] django.request: Not Found: /george/static/bootstrap/normalize.css
+2015-08-04 20:17:10,340 [WARNING] django.request: Not Found: /george/static/bootstrap/bootstrap.css
+2015-08-04 20:17:10,350 [WARNING] django.request: Not Found: /george/static/polls/style.css
+2015-08-04 20:17:10,368 [WARNING] django.request: Not Found: /george/static/jquery.js
+2015-08-04 20:17:10,380 [WARNING] django.request: Not Found: /george/static/polls/index.js
+2015-08-04 20:17:24,863 [WARNING] django.request: Not Found: /george/static/bootstrap/normalize.css
+2015-08-04 20:17:24,890 [WARNING] django.request: Not Found: /george/static/bootstrap/bootstrap.css
+2015-08-04 20:17:24,901 [WARNING] django.request: Not Found: /george/static/polls/style.css
+2015-08-04 20:17:24,909 [WARNING] django.request: Not Found: /george/static/polls/index.js
+2015-08-04 20:17:24,914 [WARNING] django.request: Not Found: /george/static/jquery.js
+2015-08-04 20:17:26,133 [WARNING] django.request: Not Found: /george/static/bootstrap/bootstrap.css

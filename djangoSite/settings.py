@@ -70,7 +70,7 @@ TEMPLATES = [
 ]
 
 STATICFILES_DIRS = (
-	os.path.join(BASE_DIR, 'static/'),
+	os.path.join(BASE_DIR, 'staticDir'),
 )
 WSGI_APPLICATION = 'djangoSite.wsgi.application'
 
@@ -106,7 +106,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
-STATIC_URL = '/static/'
+STATIC_URL = '/george/static/'
+STATIC_ROOT = '/home/george/djangoSite/static'
 
 LOGGING = {
    'version': 1,
