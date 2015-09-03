@@ -107,7 +107,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
 STATIC_URL = '/george/static/'
-STATIC_ROOT = '/home/george/djangoSite/static'
+STATIC_ROOT = '/home/george/PersonalProjects/djangoSite/static'
 
 LOGGING = {
    'version': 1,

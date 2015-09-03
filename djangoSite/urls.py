@@ -22,5 +22,6 @@ from django.views.generic import TemplateView
 urlpatterns = patterns('',
     (r"^$", TemplateView.as_view(template_name="index.html")),
 	url(r'^polls/', include('polls.urls', namespace="polls")),
-    url(r'^admin/', include(admin.site.urls))
+    url(r'^admin/', include(admin.site.urls)),
+	url(r'^icarus/', include('icarus.urls', namespace="icarus"))
 ) + static('/static/', document_root=settings.STATIC_ROOT) 
