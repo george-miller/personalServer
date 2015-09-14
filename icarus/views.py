@@ -14,19 +14,29 @@ def recordHighScore(request):
 	if request.GET.get('identity') == 'millercodesIcarus':
 		if not(request.GET.get('score').isdecimal()) or not(isinstance(request.GET.get('user'), basestring)):
 			return HttpResponse('Invalid Arguments')
+		
+		sameUserObjects = highScore.objects.filter(user=request.GET.get('user'))
+		logger.error("Found entires with same user " + str(sameUserObjects))
+		if sameUserObjects != []:
+			for sameUser in sameUserObjects:
+				if sameUser.score > request.GET.get('score'):
+					return HttpResponse('This user has a high score saved')
+			# If we didn't return, then this score is the
+			# current highest for this user, so we must delete the redundant entries
+			sameUserObjects.delete()
+
 		hs = highScore()
 		hs.score = request.GET.get('score')
 		hs.user = request.GET.get('user')
 		hs.save()
 		return HttpResponse('Successfly saved high score')
 	
-	return HttpResponse('recordHighSCore')
+	return HttpResponse('you are not a valid user')
 
 def getLeaderboard(request):
 	scores = [];
-	scoreObjects = highScore.objects.all()
+	scoreObjects = highScore.objects.all().order_by('-score')
 	for scoreObj in scoreObjects:
 		scores.append("score: " + str(scoreObj.score) +
-			"  user: " + scoreObj.user + 
-			" creationDate: " + str(scoreObj.creationDate) + " EOF ")
+			"  user: " + scoreObj.user) 
 	return HttpResponse(scores)
