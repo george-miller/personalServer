@@ -23,4 +23,10 @@ def recordHighScore(request):
 	return HttpResponse('recordHighSCore')
 
 def getLeaderboard(request):
-	return HttpResponse(highScore.objects.all())
+	scores = [];
+	scoreObjects = highScore.objects.all()
+	for scoreObj in scoreObjects:
+		scores.append("score: " + str(scoreObj.score) +
+			"  user: " + scoreObj.user + 
+			" creationDate: " + str(scoreObj.creationDate) + " EOF ")
+	return HttpResponse(scores)
