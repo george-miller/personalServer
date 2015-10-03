@@ -38,5 +38,5 @@ def getLeaderboard(request):
 	scoreObjects = highScore.objects.all().order_by('-score')
 	for scoreObj in scoreObjects:
 		scores.append("score: " + str(scoreObj.score) +
-			"  user: " + scoreObj.user) 
+			"  user: " + scoreObj.user + " <br/> ") 
 	return HttpResponse(scores)
