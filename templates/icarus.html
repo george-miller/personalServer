@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<head></head>
+<body>
+	<h1>Icarus API</h1>
+	<p>This page documents an API that I created using django.  My <a target="blank" href="https://play.google.com/store/apps/details?id=com.millercodes.icarus">app on the play store</a> uses this API to record scores and to view other people's scores.</p>
+	<a href="getLeaderboard">View the LeaderBoard</a>
+	<br/>
+	<br/>
+	A simple GET request is used to post scores to the leaderboard.  We simply collect information like username and score and add it onto the database.  When the same user posts a new score, we delete their old score if it is lower than their new score.  If I gave you example links I would be risking my leaderboard's accuracy. 
+</body>

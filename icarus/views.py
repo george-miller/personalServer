@@ -7,7 +7,7 @@ import logging
 logger = logging.getLogger(__name__)
 
 def index(request):
-	return HttpResponse("hello");
+	return render(request, "icarus.html");
 
 def recordHighScore(request):
 	
