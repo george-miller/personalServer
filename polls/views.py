@@ -36,7 +36,9 @@ def vote(request, question_id):
 		logger.error(selected_choice);
 	if p.ipalreadyvoted_set.filter(ip=get_client_ip(request)).count() == 0:
 		selected_choice.votes += 1
-		p.ipalreadyvoted_set.add(ipAlreadyVoted(ip=get_client_ip(request)))
+		ip = ipAlreadyVoted(ip=get_client_ip(request), question_id=p.id)
+		ip.save()
+		p.ipalreadyvoted_set.add(ip)
 		selected_choice.save()
 		p.save()
 		return HttpResponseRedirect(reverse('polls:detail', args=(p.id,)))
@@ -49,8 +51,9 @@ def addChoice(request, question_id):
 		if choice.choice_text == request.POST['newChoice']:
 			return HttpResponse("Choice already exists")
 			
-	newChoice = Choice()
+	newChoice = Choice(question_id=question.id)
 	newChoice.choice_text = request.POST['newChoice']
+	newChoice.save()
 	question.choice_set.add(newChoice)
 	question.save()
 	return HttpResponseRedirect(reverse('polls:detail', args=(question.id,)))
