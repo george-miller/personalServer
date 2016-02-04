@@ -9,4 +9,4 @@ urlpatterns = patterns('',
 	url(r'^polls/', include('polls.urls', namespace="polls")),
     url(r'^admin/', include(admin.site.urls)),
 	url(r'^icarus/', include('icarus.urls', namespace="icarus"))
-) + static('/static/', document_root=settings.STATIC_ROOT) 
+) + static('/static/', document_root=settings.STATIC_FOLDER) 
