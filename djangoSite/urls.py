@@ -12,4 +12,4 @@ urlpatterns = patterns('',
     url(r'^admin/', include(admin.site.urls)),
     url(r'^icarus/', include('icarus.urls', namespace="icarus")),
     url(r'^is/', include('intellectualSharing.urls', namespace="is"))
-) + static('/static/', document_root=settings.STATIC_ROOT) 
+) 
