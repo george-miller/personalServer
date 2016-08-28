@@ -11,5 +11,5 @@ urlpatterns = patterns('',
     url(r'^polls/', include('polls.urls', namespace="polls")),
     url(r'^admin/', include(admin.site.urls)),
     url(r'^icarus/', include('icarus.urls', namespace="icarus")),
-    url(r'^is/', include('intellectualSharing.urls', namespace="is"))
+#    url(r'^is/', include('intellectualSharing.urls', namespace="is"))
 ) 
