@@ -13,7 +13,7 @@ logs/
 └── mylog.log
 ```
 
-* Modify djangoSite/settings.py to connect to your database. Find the part of code that looks like this: Replace the 'NAME' value with your database name, the 'USER' value with your databse user and the 'PASSWORD' value with your database password. 
+* Modify djangoSite/settings.py to connect to your mysql database. Find the part of code that looks like the lines shown below.  Replace the 'NAME' value with your database name, the 'USER' value with your databse user and the 'PASSWORD' value with your database password.  The mysql database is used for the polls app.  If you don't want to use that app, simply comment out the lines below.
 ```
 DATABASES = {
     'default': {
@@ -28,10 +28,10 @@ DATABASES = {
 
 ## Adding in Intellectual Sharing site
 
-* Clone this repo: (https://github.com/george-miller/intellectualSharing) and use a soft link to bring that repo into this one. ```ln -s  intellectualSharing/ personalServer/``` 
+* Clone this repo: (https://github.com/george-miller/intellectualSharing) and use a soft link to bring that repo's ```home``` module into this one. ```ln -s  intellectualSharing/home/ personalServer/intellectualSharing``` 
 
 * Follow installation instructions in intellectualSharing/README.md
 
 * Modify personalServer/djangoSite/urls.py and uncomment this line (remove the # symbol from the beginning of the line).
-```#    url(r'^is/', include('intellectualSharing.urls', namespace="is"))```
+```#    url(r'^is/', include('intellectualSharing.urls', namespace="is"))```.  You must also modify djangoSite/settings.py and uncomment intellectualSharing from the INSTALLED_APPS.
 

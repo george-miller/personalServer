@@ -39,7 +39,8 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'polls',
     'icarus',
-    'intellectualSharing',
+    'regex',
+#    'intellectualSharing',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -77,15 +78,15 @@ WSGI_APPLICATION = 'djangoSite.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.8/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'djangoDB',
-	'USER': 'root',
-	'PASSWORD': 'gmmotto',
-	'HOST': '',
-    }
-}
+#DATABASES = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.mysql',
+#        'NAME': 'djangoDB',
+#	'USER': 'root',
+#	'PASSWORD': 'gmmotto',
+#	'HOST': '',
+#    }
+#}
 
 
 # Internationalization
