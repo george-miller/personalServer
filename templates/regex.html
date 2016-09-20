@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-</head>
+    </head>
 <body>
 	<h1>Regular Expression Parser</h1>
     <p>As a project for my Natural Language Processing class, I wrote a regular expression parser.  This program takes in a <a href="">regular expression</a> and uses it to search some collection of text for instances of that regular expression.</p>
-    <p></p>
     <form action='search' method='POST'>
+        {% csrf_token %}
         <label>Input your collection of text to be searched <br/><textarea name='collection'></textarea></label>
         <br/>
         <label>Input your regular expression <br/><textarea name='regex' /></textarea></label>
         <br/>
         <input type='submit'>
     </form>
+    {% if results != None %}
+    <p>
+    {% for result in results %}
+    {{result}}
+    <br/>
+    {% endfor %}
+    </p>
+    {% endif %}
 </body>
 </html>

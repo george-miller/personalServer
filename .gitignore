@@ -2,3 +2,5 @@ logs/
 *.pyc
 env/
 intellectualSharing
+*.swp
+regex/lib

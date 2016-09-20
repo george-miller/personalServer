@@ -35,3 +35,8 @@ DATABASES = {
 * Modify personalServer/djangoSite/urls.py and uncomment this line (remove the # symbol from the beginning of the line).
 ```#    url(r'^is/', include('intellectualSharing.urls', namespace="is"))```.  You must also modify djangoSite/settings.py and uncomment intellectualSharing from the INSTALLED_APPS.
 
+## Adding in regex
+
+* Clone this repo: (https://github.com/george-miller/regex) and use a soft link to bring that repo into this one ```ln -s regex personalServer/regex/lib```
+
+* Uncomment the route in djangoSite/urls.py
