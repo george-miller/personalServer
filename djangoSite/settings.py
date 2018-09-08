@@ -25,7 +25,7 @@ SECRET_KEY = 'i!@*5*^n=*c4uw(-bcsf+t#dn()3z*%7ik-j5std&0n=0kq30x'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -78,15 +78,15 @@ WSGI_APPLICATION = 'djangoSite.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.8/ref/settings/#databases
 
-#DATABASES = {
-#    'default': {
-#        'ENGINE': 'django.db.backends.mysql',
-#        'NAME': 'djangoDB',
-#	'USER': 'root',
-#	'PASSWORD': 'gmmotto',
-#	'HOST': '',
-#    }
-#}
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'djangoDB',
+	'USER': 'root',
+	'PASSWORD': 'root',
+	'HOST': '',
+    }
+}
 
 
 # Internationalization
